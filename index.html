@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% for post in paginator.posts %}
+<div class="postbody">
+	<a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
+		<h2 class="posttitle">
+			{{ post.title }}
+		</h2>
+		{% if post.subtitle %}
+		<h3 class="postsubtitle">
+			{{ post.subtitle }}
+		</h3>
+		{% endif %}
+		{% if post.date %}
+		<h3 class="postdate">
+			本文首发时间：
+		
+			{{ post.date | truncate:14 }}
+			<br />作者：
+			{{ post.author }}
+		</h3>
+		{% endif %}
+
+
+		<div class="postcontent">
+			{{ post.content | strip_html | truncate:200 }}
+		</div>
+	</a>
+</div>
+{% endfor %}
