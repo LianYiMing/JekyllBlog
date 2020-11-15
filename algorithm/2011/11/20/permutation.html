@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+	<body>
+		<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="/img/favicon.jpg">
+		<meta name="description" content="">
+		<meta name="keywords" content="廉一鸣">
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!--引出栅格试布局bootstrap的样式表-->
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet"  href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/blog.css">
+
+
+<title>
+	廉一鸣随想
+</title>
+		<style>
+			</style>
+		</head>
+		<nav class="navbar navbar-default" role="navigation">
+	<div id="navgaosi">
+		<div class="container-fluid" id="navcontainer">
+
+			<div class="navbar-header">
+
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse" style="color: rgba(256,256,256);text-shadow: #000000 5px 3px 3px;">
+					<!--style要在上方设置-->
+					<span class="glyphicon glyphicon-align-justify"></span>
+
+				</button>
+				<a class="navbar-brand" href="/" style="color: #ffffff;text-shadow: #000000 5px 3px 3px;">LianYiMing</a>
+
+			</div>
+			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+
+
+				 <button type="button" class="btn btn-default btn-sm " id="botton1">
+					<span class="glyphicon glyphicon-home"></span>
+					<a href="/">Home</a></button>
+
+
+				<button type="button" class="btn btn-default btn-sm" id="botton2">
+					<span class="glyphicon glyphicon-share-alt"></span>
+					<a href="https://www.lianyiming.com">BlogSite</a>
+				</button>
+
+				<button type="button" class="btn btn-default btn-sm" id="botton3">
+					<span class="glyphicon glyphicon-user"></span>
+					<a href="about.html">about</a>
+				</button>
+
+
+			</div>
+		</div>
+</nav>
+
+		<script>
+	function Lym() {num = Math.floor((Math.random() * 10));
+	console.log(num)
+	document.body.style.backgroundImage="url('/img/postBg/1.jpg')"
+	
+	}
+	setInterval(Lym,3000)
+</script>
+<meta name="referrer" content="never">
+<!--让公众号图片认为自己在微信里，避免“来自公众号不可引用”-->
+<style type="text/css">
+	body{
+		
+		-webkit-backdrop-filter: blur(10px);
+		backdrop-filter: blur(10px);
+		background-attachment: fixed;
+	}
+	
+</style>
+<title>
+	
+</title>
+<article>
+	<div class="container">
+		<div class="row">
+			<div class="articlebody">
+
+				<h3 id="问题描述">问题描述</h3>
+
+<p>实现一个简单的全排列算法，以整形数组{1,2,3,4,5}为例，假设元素无重复。</p>
+
+<h3 id="问题分析">问题分析</h3>
+
+<p>如果用多层循环来实现，那么……有多少个元素将需要有多少层循环，这样作为实现一个算法的角度来看显然是不可取的。</p>
+
+<p>以 a[] = {1,2,3,4,5}为例，它的全排列是</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1　{2,3,4,5}的全排列
+2  {1,3,4,5}的全排列
+3  {1,2,4,5}的全排列
+4  {1,2,3,5}的全排列
+5  {1,2,3,4}的全排列
+</code></pre></div></div>
+
+<p>由子数组的全排列得到母数组的全排列结果，可以考虑用递归实现，具体可以设计为将 a 依次变换为</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>12345
+21345
+31245
+41235
+51234
+</code></pre></div></div>
+
+<p>然后分别求它们后四个元素的全排列，依此类推。</p>
+
+<h3 id="简单的-c-实现">简单的 C++ 实现</h3>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;iostream&gt;
+</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="k">static</span> <span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nf">swapint</span><span class="p">(</span><span class="kt">int</span> <span class="o">*</span><span class="n">p</span><span class="p">,</span> <span class="kt">int</span> <span class="o">*</span><span class="n">q</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">tmp</span> <span class="o">=</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
+    <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="o">*</span><span class="n">q</span><span class="p">;</span>
+    <span class="o">*</span><span class="n">q</span> <span class="o">=</span> <span class="n">tmp</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">fullarray</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">[],</span> 
+        <span class="kt">int</span> <span class="n">iLen</span><span class="p">,</span>   <span class="c1">// 数组长度</span>
+        <span class="kt">int</span> <span class="n">iStart</span><span class="p">)</span> <span class="c1">// 开始下标</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">iLen</span> <span class="o">==</span> <span class="n">iStart</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">iLen</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+        <span class="n">n</span><span class="o">++</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">else</span>
+    <span class="p">{</span>
+        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">iStart</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">iLen</span><span class="p">;</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">swapint</span><span class="p">(</span><span class="o">&amp;</span><span class="n">a</span><span class="p">[</span><span class="n">iStart</span><span class="p">],</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">[</span><span class="n">j</span><span class="p">]);</span>
+            <span class="n">fullarray</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">iLen</span><span class="p">,</span> <span class="n">iStart</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+            <span class="n">swapint</span><span class="p">(</span><span class="o">&amp;</span><span class="n">a</span><span class="p">[</span><span class="n">iStart</span><span class="p">],</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">[</span><span class="n">j</span><span class="p">]);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">a</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">};</span>
+    <span class="n">fullarray</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">),</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"总共"</span> <span class="o">&lt;&lt;</span> <span class="n">n</span> <span class="o">&lt;&lt;</span> <span class="s">"种"</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>参考：<a href="http://www.cnblogs.com/nokiaguy/archive/2008/05/11/1191914.html">http://www.cnblogs.com/nokiaguy/archive/2008/05/11/1191914.html</a></p>
+
+			</div>
+		</div>
+	</div>
+	<ul class="poster">
+		<li>
+			<a href="" data-toggle="toolip" data-placement="top"
+			 title="操作系统和数据库基础">
+				上一篇文章
+				<br />
+				<span>操作系统和数据库基础</span>
+			</a>
+		</li>
+<li>
+	<a href="" 
+	data-toggle="toolip" data-placement="top" title="HGE 引擎学习笔记 1——如何模拟物理碰撞"
+	</li>
+	</ul>
+</article>
+
+		<footer>
+	
+		
+		
+	<div class="container" id="footerbox">
+		<p id="footerlym">
+			Copyright 2020 ❤ LianYiMing
+			<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小站已在各种风雨中苟活 <span id="timer"></span>
+		</p>
+		</div>
+		<script src="/js/websiteTimer.js"> </script>
+		<!--放后边，不然会报错,还是解析顺序原因-->
+	<footer\>
+	</body>
+</html>

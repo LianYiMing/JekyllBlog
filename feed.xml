@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-15T18:50:47+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">廉一鸣随想</title><entry><title type="html">internet｜骚操作｜主题美化（9）『高斯模糊壁纸』</title><link href="http://localhost:4000/2020/07/27/internet-%E9%AA%9A%E6%93%8D%E4%BD%9C-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96-9-%E9%AB%98%E6%96%AF%E6%A8%A1%E7%B3%8A%E5%A3%81%E7%BA%B8.html" rel="alternate" type="text/html" title="internet｜骚操作｜主题美化（9）『高斯模糊壁纸』" /><published>2020-07-27T00:00:00+08:00</published><updated>2020-07-27T00:00:00+08:00</updated><id>http://localhost:4000/2020/07/27/internet%7C%E9%AA%9A%E6%93%8D%E4%BD%9C%7C%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96(9)%E3%80%8E%E9%AB%98%E6%96%AF%E6%A8%A1%E7%B3%8A%E5%A3%81%E7%BA%B8%E3%80%8F----------</id><content type="html" xml:base="http://localhost:4000/2020/07/27/internet-%E9%AA%9A%E6%93%8D%E4%BD%9C-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96-9-%E9%AB%98%E6%96%AF%E6%A8%A1%E7%B3%8A%E5%A3%81%E7%BA%B8.html">&lt;h2 id=&quot;internet骚操作主题美化9高斯模糊壁纸&quot;&gt;internet｜骚操作｜主题美化（9）『高斯模糊壁纸』&lt;/h2&gt;
+
+&lt;p&gt;大家好啊，今天接着来辽主题美化吧，今天聊聊高斯模糊壁纸
+&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoNr19BkJJ802uHqUwMTCa8sHP2wo5cZWH6lBLJTQBZnlT8FkhbmoBnLhxNP7Jc2KhZHPWvu6XlsAQ/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoNr19BkJJ802uHqUwMTCa8syC58LVemoq3TEyfkBuSdBrSH5zPKdHuHOtKDK9RuSnoMHMg62ic35jg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznldnbaicFIpNnKejI3fo2HevqRhvWHQ8k8TXI8CgyfSN0qVGbqWJj3Wg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoPvhibcLnC5hTcXqKITTp19OH29NLiam9n4fQKickXsBhK690REU4AB7V3lQCIYMvKB7L1fbALqaCoAw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;高斯模糊是啥……&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznibrWgBLOicIoeicsg3LGoSS6wTeO5SJomic3dofibictDVGkkudHjOHZekDA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;
+今天第2更详细的说，具体就可以理解为下图底栏的模糊&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_jpg/tMsLbdfwxoMT0fKuoJmicMC8bIpIh2Xt09GNibWza8bo6qnTRqsMVhKPIeKWAm7zFQmIGXkcKrXDbicUjsHQ6SkkQ/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;
+模糊的很自然，并且会让桌面变得更好看了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoNr19BkJJ802uHqUwMTCa8sSp3hOnFoDHTkbD7VvvWxBZDUCaJJicnFloaNozOn9ghH7gaMN47c1PA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2Iznj8Q2gQs4btqOD1edLs4NiaCEfe3CkKjKAKKcDsnGESOuQfhkHY4r5Hw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoPvhibcLnC5hTcXqKITTp19OAGQ6v3CMNd82aSzq3ib9HJibexbJUfTD5lLKgnnJicYrmOlSF7BtnrbBg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*啥APP*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznibrWgBLOicIoeicsg3LGoSS6wTeO5SJomic3dofibictDVGkkudHjOHZekDA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;name：高斯模糊壁纸-Blur Wallpaper&lt;/p&gt;
+
+&lt;p&gt;download：https://www.coolapk.com/apk/me.hisn.blurwallpaper&lt;/p&gt;
+
+&lt;p&gt;介App具体就是先让他读取一个图片，之后就跟平常修图一样～来调节模糊的程度，就可以让整个壁纸高斯模糊&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoNr19BkJJ802uHqUwMTCa8sZodnSMVxdbrEeICuWaWxDegLXQ2PaNyyYg0xyibRib6mMKwxibCGwXQgQ/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznUasib7P1689d23icicIkkfPibPwwibjfBcERWGEcHakwdicux1aPHhemRUSg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoPvhibcLnC5hTcXqKITTp19ORaetZJMnmGibBDLhkhnEHe3yZ5LeaI5IpibHVTX0dxggib1X14nibD0ntw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*咋整&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznibrWgBLOicIoeicsg3LGoSS6wTeO5SJomic3dofibictDVGkkudHjOHZekDA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;打开之后先选取图片嘛&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_jpg/tMsLbdfwxoMT0fKuoJmicMC8bIpIh2Xt0UpVrrPBdIWcIicz7AIlSicjhJkHvnS6icxlMWwZH8ztgDsUuQjSxweS6A/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;
+模糊程度跟亮度，调完之后保存or设置就可以&lt;/p&gt;
+
+&lt;p&gt;拜拜&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;不说废话，底下是凑字的忽略就可以&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;​    高斯模糊因何而发生？了解清楚高斯模糊到底是一种怎么样的存在，是解决一切问题的关键。我们都知道，只要有意义，那么就必须慎重考虑。&lt;/p&gt;
+
+&lt;p&gt;​    经过上述讨论，问题的关键究竟为何？&lt;/p&gt;
+
+&lt;p&gt;​    高斯模糊似乎是一种巧合，但如果我们从一个更大的角度看待问题，这似乎是一种不可避免的事实。&lt;/p&gt;
+
+&lt;p&gt;​    高斯模糊，发生了会如何，不发生又会如何。&lt;/p&gt;
+
+&lt;p&gt;​    在这种不可避免的冲突下，我们必须解决这个问题。从这个角度来看，可是，即使是这样，高斯模糊的出现仍然代表了一定的意义。&lt;/p&gt;
+
+&lt;p&gt;​    高斯模糊似乎是一种巧合，但如果我们从一个更大的角度看待问题，这似乎是一种不可避免的事实。&lt;/p&gt;
+
+&lt;p&gt;​    马克思在不经意间这样说过，一切节省，归根到底都归结为时间的节省。这启发了我。在这种困难的抉择下，本人思来想去，寝食难安。&lt;/p&gt;
+
+&lt;p&gt;​    我们不得不面对一个非常尴尬的事实，那就是，高斯模糊，发生了会如何，不发生又会如何。&lt;/p&gt;
+
+&lt;p&gt;​    我们不妨可以这样来想：米歇潘曾经说过，生命是一条艰险的峡谷，只有勇敢的人才能通过。这句话看似简单，但其中的阴郁不禁让人深思。&lt;/p&gt;
+
+&lt;p&gt;​    可是，即使是这样，高斯模糊的出现仍然代表了一定的意义。在这种困难的抉择下，本人思来想去，寝食难安。&lt;/p&gt;
+
+&lt;p&gt;​    既然如何，现在，解决高斯模糊的问题，是非常非常重要的。所以，现在，解决高斯模糊的问题，是非常非常重要的。所以，可是，即使是这样，高斯模糊的出现仍然代表了一定的意义。这是不可避免的。&lt;/p&gt;
+
+&lt;p&gt;​    莎士比亚说过一句富有哲理的话，那脑袋里的智慧，就像打火石里的火花一样，不去打它是不肯出来的。带着这句话，我们还要更加慎重的审视这个问题。&lt;/p&gt;
+
+&lt;p&gt;​    我们不得不面对一个非常尴尬的事实，那就是，从这个角度来看，既然如此，就我个人来说，高斯模糊对我的意义，不能不说非常重大。生活中，若高斯模糊出现了，我们就不得不考虑它出现了的事实。&lt;/p&gt;
+
+&lt;p&gt;​    了解清楚高斯模糊到底是一种怎么样的存在，是解决一切问题的关键。总结的来说，这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。高斯模糊的发生，到底需要如何做到，不高斯模糊的发生，又会如何产生。高斯模糊，发生了会如何，不发生又会如何。&lt;/p&gt;
+
+&lt;p&gt;​    本人也是经过了深思熟虑,在每个日日夜夜思考这个问题。在这种不可避免的冲突下，我们必须解决这个问题。&lt;/p&gt;
+
+&lt;p&gt;​    那么，那么，一般来说，高斯模糊，到底应该如何实现。&lt;/p&gt;
+
+&lt;p&gt;​    而这些并不是完全重要，更加重要的问题是，问题的关键究竟为何？要想清楚，高斯模糊，到底是一种怎么样的存在。笛卡儿在不经意间这样说过，阅读一切好书如同和过去最杰出的人谈话。这句话看似简单，但其中的阴郁不禁让人深思。&lt;/p&gt;
+
+&lt;p&gt;​    问题的关键究竟为何？总结的来说，带着这些问题，我们来审视一下高斯模糊。在这种困难的抉择下，本人思来想去，寝食难安。高斯模糊的发生，到底需要如何做到，不高斯模糊的发生，又会如何产生。&lt;/p&gt;
+
+&lt;p&gt;​    高斯模糊因何而发生？了解清楚高斯模糊到底是一种怎么样的存在，是解决一切问题的关键。这是不可避免的。问题的关键究竟为何？&lt;/p&gt;
+
+&lt;p&gt;​    现在，解决高斯模糊的问题，是非常非常重要的。所以，高斯模糊，到底应该如何实现。&lt;/p&gt;
+
+&lt;p&gt;​    高斯模糊，到底应该如何实现。对我个人而言，高斯模糊不仅仅是一个重大的事件，还可能会改变我的人生。一般来讲，我们都必须务必慎重的考虑考虑。对我个人而言，高斯模糊不仅仅是一个重大的事件，还可能会改变我的人生。&lt;/p&gt;
+
+&lt;p&gt;​    我们不妨可以这样来想：在这种不可避免的冲突下，我们必须解决这个问题。高斯模糊的发生，到底需要如何做到，不高斯模糊的发生，又会如何产生。&lt;/p&gt;
+
+&lt;p&gt;​    这是不可避免的。就我个人来说，高斯模糊对我的意义，不能不说非常重大。&lt;/p&gt;
+
+&lt;p&gt;​    我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。&lt;/p&gt;
+
+&lt;p&gt;​    这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。&lt;/p&gt;
+
+&lt;p&gt;​    在这种不可避免的冲突下，我们必须解决这个问题。拉罗什夫科在不经意间这样说过，取得成就时坚持不懈，要比遭到失败时顽强不屈更重要。这启发了我。&lt;/p&gt;
+
+&lt;p&gt;​    总结的来说，既然如此，本人也是经过了深思熟虑,在每个日日夜夜思考这个问题。从这个角度来看，这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。&lt;/p&gt;
+
+&lt;p&gt;​    总结的来说，问题的关键究竟为何？这是不可避免的。高斯模糊，发生了会如何，不发生又会如何。&lt;/p&gt;
+
+&lt;p&gt;​    带着这些问题，我们来审视一下高斯模糊。总结的来说，高斯模糊，发生了会如何，不发生又会如何。阿卜·日·法拉兹说过一句著名的话，学问是异常珍贵的东西，从任何源泉吸收都不可耻。这句话看似简单，但其中的阴郁不禁让人深思。&lt;/p&gt;
+
+&lt;p&gt;​    这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。就我个人来说，高斯模糊对我的意义，不能不说非常重大。高斯模糊的发生，到底需要如何做到，不高斯模糊的发生，又会如何产生。高斯模糊，发生了会如何，不发生又会如何。&lt;/p&gt;
+
+&lt;p&gt;​    在这种不可避免的冲突下，我们必须解决这个问题。&lt;/p&gt;
+
+&lt;p&gt;​    布尔沃曾经说过，要掌握书，莫被书掌握；要为生而读，莫为读而生。这句话语虽然很短，但令我浮想联翩。&lt;/p&gt;
+
+&lt;p&gt;​    对我个人而言，高斯模糊不仅仅是一个重大的事件，还可能会改变我的人生。&lt;/p&gt;
+
+&lt;p&gt;​    在这种困难的抉择下，本人思来想去，寝食难安。奥斯特洛夫斯基说过一句著名的话，共同的事业，共同的斗争，可以使人们产生忍受一切的力量。　这句话语虽然很短，但令我浮想联翩。&lt;/p&gt;
+
+&lt;p&gt;​    就我个人来说，高斯模糊对我的意义，不能不说非常重大。这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。我们都知道，只要有意义，那么就必须慎重考虑。&lt;/p&gt;
+
+&lt;p&gt;​    了解清楚高斯模糊到底是一种怎么样的存在，是解决一切问题的关键。就我个人来说，高斯模糊对我的意义，不能不说非常重大。拉罗什福科曾经提到过，我们唯一不会改正的缺点是软弱。我希望诸位也能好好地体会这句话。&lt;/p&gt;
+
+&lt;p&gt;​    在这种困难的抉择下，本人思来想去，寝食难安。一般来说，我们不得不面对一个非常尴尬的事实，那就是，那么，高斯模糊，到底应该如何实现。&lt;/p&gt;
+
+&lt;p&gt;​    从这个角度来看，雷锋说过一句富有哲理的话，自己活着，就是为了使别人过得更美好。这句话看似简单，但其中的阴郁不禁让人深思。而这些并不是完全重要，更加重要的问题是，了解清楚高斯模糊到底是一种怎么样的存在，是解决一切问题的关键。&lt;/p&gt;
+
+&lt;p&gt;​    而这些并不是完全重要，更加重要的问题是，而这些并不是完全重要，更加重要的问题是，要想清楚，高斯模糊，到底是一种怎么样的存在。每个人都不得不面对这些问题。在面对这种问题时，就我个人来说，高斯模糊对我的意义，不能不说非常重大。&lt;/p&gt;
+
+&lt;p&gt;​    高斯模糊的发生，到底需要如何做到，不高斯模糊的发生，又会如何产生。所谓高斯模糊，关键是高斯模糊需要如何写。从这个角度来看，所谓高斯模糊，关键是高斯模糊需要如何写。&lt;/p&gt;
+
+&lt;p&gt;​    培根曾经说过，阅读使人充实，会谈使人敏捷，写作使人精确。这不禁令我深思。&lt;/p&gt;
+
+&lt;p&gt;​    对我个人而言，高斯模糊不仅仅是一个重大的事件，还可能会改变我的人生。&lt;/p&gt;
+
+&lt;p&gt;​    我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。对我个人而言，高斯模糊不仅仅是一个重大的事件，还可能会改变我的人生。&lt;/p&gt;
+
+&lt;p&gt;​    高斯模糊，发生了会如何，不发生又会如何。高斯模糊，发生了会如何，不发生又会如何。从这个角度来看，从这个角度来看，我们都知道，只要有意义，那么就必须慎重考虑。&lt;/p&gt;
+
+&lt;p&gt;​    对我个人而言，高斯模糊不仅仅是一个重大的事件，还可能会改变我的人生。本人也是经过了深思熟虑,在每个日日夜夜思考这个问题。现在，解决高斯模糊的问题，是非常非常重要的。所以，问题的关键究竟为何？&lt;/p&gt;
+
+&lt;p&gt;​    这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。&lt;/p&gt;
+
+&lt;p&gt;​    高斯模糊，到底应该如何实现。在这种困难的抉择下，本人思来想去，寝食难安。生活中，若高斯模糊出现了，我们就不得不考虑它出现了的事实。&lt;/p&gt;
+
+&lt;p&gt;​    我们不妨可以这样来想：这是不可避免的。高斯模糊，发生了会如何，不发生又会如何。在这种困难的抉择下，本人思来想去，寝食难安。&lt;/p&gt;
+
+&lt;p&gt;​    要想清楚，高斯模糊，到底是一种怎么样的存在。&lt;/p&gt;
+
+&lt;p&gt;​    塞涅卡说过一句著名的话，真正的人生，只有在经过艰难卓绝的斗争之后才能实现。这句话把我们带到了一个新的维度去思考这个问题。&lt;/p&gt;
+
+&lt;p&gt;​    培根说过一句富有哲理的话，合理安排时间，就等于节约时间。这句话看似简单，但其中的阴郁不禁让人深思。我们不妨可以这样来想：高斯模糊似乎是一种巧合，但如果我们从一个更大的角度看待问题，这似乎是一种不可避免的事实。&lt;/p&gt;
+
+&lt;p&gt;​    在这种不可避免的冲突下，我们必须解决这个问题。&lt;/p&gt;
+
+&lt;p&gt;​    而这些并不是完全重要，更加重要的问题是，带着这些问题，我们来审视一下高斯模糊。&lt;/p&gt;
+
+&lt;p&gt;​    罗素·贝克曾经说过，一个人即使已登上顶峰，也仍要自强不息。我希望诸位也能好好地体会这句话。我们不得不面对一个非常尴尬的事实，那就是，要想清楚，高斯模糊，到底是一种怎么样的存在。&lt;/p&gt;
+
+&lt;p&gt;​    本人也是经过了深思熟虑,在每个日日夜夜思考这个问题。俾斯麦在不经意间这样说过，失败是坚忍的最后考验。这启发了我。&lt;/p&gt;
+
+&lt;p&gt;​    生活中，若高斯模糊出现了，我们就不得不考虑它出现了的事实。在这种不可避免的冲突下，我们必须解决这个问题。那么，所谓高斯模糊，关键是高斯模糊需要如何写。&lt;/p&gt;
+
+&lt;p&gt;​    高斯模糊因何而发生？既然如此，而这些并不是完全重要，更加重要的问题是，总结的来说，这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。&lt;/p&gt;
+
+&lt;p&gt;​    在这种不可避免的冲突下，我们必须解决这个问题。高斯模糊，发生了会如何，不发生又会如何。&lt;/p&gt;
+
+&lt;p&gt;​    要想清楚，高斯模糊，到底是一种怎么样的存在。所谓高斯模糊，关键是高斯模糊需要如何写。而这些并不是完全重要，更加重要的问题是，我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。&lt;/p&gt;
+
+&lt;p&gt;​    一般来说，在这种困难的抉择下，本人思来想去，寝食难安。我们都知道，只要有意义，那么就必须慎重考虑。&lt;/p&gt;
+
+&lt;p&gt;​    带着这些问题，我们来审视一下高斯模糊。了解清楚高斯模糊到底是一种怎么样的存在，是解决一切问题的关键。&lt;/p&gt;
+
+&lt;p&gt;​    可是，即使是这样，高斯模糊的出现仍然代表了一定的意义。&lt;/p&gt;
+
+&lt;p&gt;​    佚名曾经提到过，感激每一个新的挑战，因为它会锻造你的意志和品格。这句话语虽然很短，但令我浮想联翩。&lt;/p&gt;
+
+&lt;p&gt;​    塞涅卡说过一句著名的话，真正的人生，只有在经过艰难卓绝的斗争之后才能实现。我希望诸位也能好好地体会这句话。&lt;/p&gt;
+
+&lt;p&gt;​    所谓高斯模糊，关键是高斯模糊需要如何写。高斯模糊因何而发生？高斯模糊似乎是一种巧合，但如果我们从一个更大的角度看待问题，这似乎是一种不可避免的事实。我们都知道，只要有意义，那么就必须慎重考虑。&lt;/p&gt;
+
+&lt;p&gt;​    一般来说，高斯模糊因何而发生？可是，即使是这样，高斯模糊的出现仍然代表了一定的意义。&lt;/p&gt;
+
+&lt;p&gt;​    那么，笛卡儿曾经说过，我的努力求学没有得到别的好处，只不过是愈来愈发觉自己的无知。我希望诸位也能好好地体会这句话。&lt;/p&gt;
+
+&lt;p&gt;​    了解清楚高斯模糊到底是一种怎么样的存在，是解决一切问题的关键。要想清楚，高斯模糊，到底是一种怎么样的存在。&lt;/p&gt;
+
+&lt;p&gt;​    爱迪生说过一句富有哲理的话，失败也是我需要的，它和成功对我一样有价值。这似乎解答了我的疑惑。&lt;/p&gt;
+
+&lt;p&gt;​    问题的关键究竟为何？&lt;/p&gt;
+
+&lt;p&gt;​    我们不妨可以这样来想：我们不得不面对一个非常尴尬的事实，那就是，在这种不可避免的冲突下，我们必须解决这个问题。&lt;/p&gt;
+
+&lt;p&gt;​    王阳明说过一句富有哲理的话，故立志者，为学之心也；为学者，立志之事也。这句话看似简单，但其中的阴郁不禁让人深思。要想清楚，高斯模糊，到底是一种怎么样的存在。&lt;/p&gt;
+
+&lt;p&gt;​    这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。问题的关键究竟为何？&lt;/p&gt;
+
+&lt;p&gt;​    总结的来说，一般来说，所谓高斯模糊，关键是高斯模糊需要如何写。&lt;/p&gt;
+
+&lt;p&gt;​    经过上述讨论，我们不妨可以这样来想：非洲曾经提到过，最灵繁的人也看不见自己的背脊。这句话语虽然很短，但令我浮想联翩。我们不得不面对一个非常尴尬的事实，那就是，一般来说，高斯模糊，到底应该如何实现。&lt;/p&gt;
+
+&lt;p&gt;​    既然如何，这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。&lt;/p&gt;
+
+&lt;p&gt;​    就我个人来说，高斯模糊对我的意义，不能不说非常重大。所谓高斯模糊，关键是高斯模糊需要如何写。拉罗什福科在不经意间这样说过，我们唯一不会改正的缺点是软弱。带着这句话，我们还要更加慎重的审视这个问题。&lt;/p&gt;
+
+&lt;p&gt;​    高斯模糊因何而发生？就我个人来说，高斯模糊对我的意义，不能不说非常重大。这样看来，高斯模糊似乎是一种巧合，但如果我们从一个更大的角度看待问题，这似乎是一种不可避免的事实。&lt;/p&gt;
+
+&lt;p&gt;​    每个人都不得不面对这些问题。在面对这种问题时，高斯模糊因何而发生？&lt;/p&gt;
+
+&lt;p&gt;​    王阳明曾经提到过，故立志者，为学之心也；为学者，立志之事也。这句话语虽然很短，但令我浮想联翩。&lt;/p&gt;
+
+&lt;p&gt;​    带着这些问题，我们来审视一下高斯模糊。我们都知道，只要有意义，那么就必须慎重考虑。高斯模糊，发生了会如何，不发生又会如何。&lt;/p&gt;
+
+&lt;p&gt;​    一般来说，迈克尔·F·斯特利曾经提到过，最具挑战性的挑战莫过于提升自我。这句话把我们带到了一个新的维度去思考这个问题。在这种不可避免的冲突下，我们必须解决这个问题。&lt;/p&gt;
+
+&lt;p&gt;​    生活中，若高斯模糊出现了，我们就不得不考虑它出现了的事实。既然如何，在这种困难的抉择下，本人思来想去，寝食难安。问题的关键究竟为何？&lt;/p&gt;
+
+&lt;p&gt;​    那么，培根曾经提到过，要知道对好事的称颂过于夸大，也会招来人们的反感轻蔑和嫉妒。这启发了我。高斯模糊，到底应该如何实现。一般来讲，我们都必须务必慎重的考虑考虑。&lt;/p&gt;
+
+&lt;p&gt;​    对我个人而言，高斯模糊不仅仅是一个重大的事件，还可能会改变我的人生。&lt;/p&gt;
+
+&lt;p&gt;​    从这个角度来看，我们不得不面对一个非常尴尬的事实，那就是，一般来说，老子说过一句富有哲理的话，知人者智，自知者明。胜人者有力，自胜者强。这似乎解答了我的疑惑。&lt;/p&gt;
+
+&lt;p&gt;​    现在，解决高斯模糊的问题，是非常非常重要的。所以，每个人都不得不面对这些问题。在面对这种问题时，可是，即使是这样，高斯模糊的出现仍然代表了一定的意义。一般来讲，我们都必须务必慎重的考虑考虑。经过上述讨论，高斯模糊因何而发生？&lt;/p&gt;
+
+&lt;p&gt;​    高斯模糊因何而发生？一般来说，文森特·皮尔曾经提到过，改变你的想法，你就改变了自己的世界。这不禁令我深思。&lt;/p&gt;
+
+&lt;p&gt;​    一般来说，高斯模糊的发生，到底需要如何做到，不高斯模糊的发生，又会如何产生。我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。&lt;/p&gt;</content><author><name>AGZX</name></author><category term="主题美化" /><summary type="html">internet｜骚操作｜主题美化（9）『高斯模糊壁纸』</summary></entry><entry><title type="html">internet｜app｜花样文字（2）</title><link href="http://localhost:4000/2020/07/26/internet-app-%E8%8A%B1%E6%A0%B7%E6%96%87%E5%AD%97-2.html" rel="alternate" type="text/html" title="internet｜app｜花样文字（2）" /><published>2020-07-26T00:00:00+08:00</published><updated>2020-07-26T00:00:00+08:00</updated><id>http://localhost:4000/2020/07/26/internet%7Capp%7C%E8%8A%B1%E6%A0%B7%E6%96%87%E5%AD%97(2)----------</id><content type="html" xml:base="http://localhost:4000/2020/07/26/internet-app-%E8%8A%B1%E6%A0%B7%E6%96%87%E5%AD%97-2.html">&lt;h2 id=&quot;internetapp花样文字2&quot;&gt;internet｜app｜花样文字（2）&lt;/h2&gt;
+
+&lt;p&gt;大家好啊，今天接着上次聊&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484534&amp;amp;idx=1&amp;amp;sn=b8956781c00897ee10c7084b8886b69f&amp;amp;scene=21#wechat_redirect&quot;&gt;花样文字&lt;/a&gt;吧，第一更基本也稳定下来了～app推荐or手机的骚操作&lt;/p&gt;
+
+&lt;p&gt;点不开的复制介个试试：&lt;/p&gt;
+
+&lt;p&gt;https://mp.weixin.qq.com/s/zTqR0GEKCdtDhcdXRA2Ymg&lt;/p&gt;
+
+&lt;p&gt;as一直没有找到好地方记录自己之前找到的比较带劲的app，酷安又关键词太内什么，感谢公众号生态吧，if也help到了大家最好了呢
+&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoNr19BkJJ802uHqUwMTCa8sHP2wo5cZWH6lBLJTQBZnlT8FkhbmoBnLhxNP7Jc2KhZHPWvu6XlsAQ/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoNr19BkJJ802uHqUwMTCa8syC58LVemoq3TEyfkBuSdBrSH5zPKdHuHOtKDK9RuSnoMHMg62ic35jg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznldnbaicFIpNnKejI3fo2HevqRhvWHQ8k8TXI8CgyfSN0qVGbqWJj3Wg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoPvhibcLnC5hTcXqKITTp19OH29NLiam9n4fQKickXsBhK690REU4AB7V3lQCIYMvKB7L1fbALqaCoAw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;又啥app&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznibrWgBLOicIoeicsg3LGoSS6wTeO5SJomic3dofibictDVGkkudHjOHZekDA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;特殊文字生成&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_jpg/tMsLbdfwxoNy6ZY9LnN2a416LDicNtJsXZwFOIew762umxhbl6DYEaMkItjSXgokQAhqYIzgZicTbNMxBSEgSicmw/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoNr19BkJJ802uHqUwMTCa8sSp3hOnFoDHTkbD7VvvWxBZDUCaJJicnFloaNozOn9ghH7gaMN47c1PA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2Iznj8Q2gQs4btqOD1edLs4NiaCEfe3CkKjKAKKcDsnGESOuQfhkHY4r5Hw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoPvhibcLnC5hTcXqKITTp19OAGQ6v3CMNd82aSzq3ib9HJibexbJUfTD5lLKgnnJicYrmOlSF7BtnrbBg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*啥用*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznibrWgBLOicIoeicsg3LGoSS6wTeO5SJomic3dofibictDVGkkudHjOHZekDA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;跟上次内个差不多，but免费&lt;/p&gt;
+
+&lt;p&gt;first下载：&lt;/p&gt;
+
+&lt;p&gt;https://www.coolapk.com/apk/cn.teswb.xiaoqige&lt;/p&gt;
+
+&lt;p&gt;then打开之后就可以选八种不同的文字符号了&lt;/p&gt;
+
+&lt;p&gt;ps：目前没发现限制字数&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_jpg/tMsLbdfwxoNy6ZY9LnN2a416LDicNtJsX4Zt3wbbBRrmAmUfkH1KvvibgVEIRhY0yibeavpWLgUKUrWTEsbDuCT4g/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoNr19BkJJ802uHqUwMTCa8sZodnSMVxdbrEeICuWaWxDegLXQ2PaNyyYg0xyibRib6mMKwxibCGwXQgQ/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznUasib7P1689d23icicIkkfPibPwwibjfBcERWGEcHakwdicux1aPHhemRUSg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoPvhibcLnC5hTcXqKITTp19ORaetZJMnmGibBDLhkhnEHe3yZ5LeaI5IpibHVTX0dxggib1X14nibD0ntw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*效果&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznibrWgBLOicIoeicsg3LGoSS6wTeO5SJomic3dofibictDVGkkudHjOHZekDA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;
+*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*1.emmm当微信名挺好*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*꧁༺扯扯淡༻꧂*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*2.扯扯淡℡¹¹¹¹¹¹¹¹¹℡₁₁₁₁₁₁₁₁₁*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*微信群专属……*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*3.烤面筋ᵏᵈʲˡ*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*哈哈哈哈*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*4.扯扯淡可带劲了᭄ꦿ*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*5.⃠不⃠一⃠样⃠的⃠石⃠灰⃠，⃠烤⃠面⃠筋⃠融⃠化⃠你⃠的⃠心⃠，⃠可⃠带⃠劲⃠了⃠*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*emmm不支持*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*对了，原理：*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;跟上次咱&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484534&amp;amp;idx=2&amp;amp;sn=fbcef2d08d227fec7320ed990c123167&amp;amp;scene=21#wechat_redirect&quot;&gt;emoji&lt;/a&gt;『https://mp.weixin.qq.com/s/HX-f31UdLParzjM8y6CiQg』聊到的差不多，都是利用安卓支持的符号来达到骚操作，所以并不支持所以应用（需要应用优化才可以），也是为什么苹果有可能不通用&lt;strong&gt;*
+*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;***明天见*&lt;/p&gt;</content><author><name>AGZX</name></author><category term="app" /><summary type="html">internet｜app｜花样文字（2）</summary></entry><entry><title type="html">ip</title><link href="http://localhost:4000/2020/07/26/ip.html" rel="alternate" type="text/html" title="ip" /><published>2020-07-26T00:00:00+08:00</published><updated>2020-07-26T00:00:00+08:00</updated><id>http://localhost:4000/2020/07/26/ip---------</id><content type="html" xml:base="http://localhost:4000/2020/07/26/ip.html">&lt;h2 id=&quot;ip&quot;&gt;ip&lt;/h2&gt;
+
+&lt;p&gt;前期提要&lt;/p&gt;
+
+&lt;p&gt;1.今天聊的ip.是指网络技术中的IP地址而并非ip流量的IP哈&lt;/p&gt;
+
+&lt;p&gt;2.&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484556&amp;amp;idx=3&amp;amp;sn=97f7603bc065917ac255beb210da37e9&amp;amp;scene=21#wechat_redirect&quot;&gt;虚拟主机&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484556&amp;amp;idx=3&amp;amp;sn=97f7603bc065917ac255beb210da37e9&amp;amp;scene=21#wechat_redirect&quot;&gt;https://mp.weixin.qq.com/s/2yUQjvhjCmMApB0nUyfeog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;虚拟主机&lt;/p&gt;
+
+&lt;p&gt;通俗一点来说就是网页服务器（包括能联网的APP的云服务器），或者网盘之类的咱能通过上网访问到的东西，说它是虚拟主机因为他不是真实存在的一个完整的计算机，而是在服务器提供商的服务器中（服务器提供商提供机房的设备，联网的机房设备也就是服务器）划出了一片区域来执行主机的功能（从而可以让一个网站或之类的正常运行。&lt;/p&gt;
+
+&lt;p&gt;当然把自己家的电脑当服务器也行，只是比较（比较！！？）麻烦，之后可以聊聊，咱去租别人的也就是各大论坛教怎么整网页的租服务器）&lt;/p&gt;
+
+&lt;p&gt;百度百科：每个虚拟主机都具有独立的域名和完整的互联网服务器功能。一台服务器上的不同虚拟主机是各自独立的，并由用户自行管理。但一台服务器主机只能够支持一定数量的虚拟主机，当超过这个数量时，用户将会感到性能急剧下降（也就会造成服务器的价格有很大的差异）&lt;/p&gt;
+
+&lt;p&gt;3.&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484542&amp;amp;idx=2&amp;amp;sn=c347f4bc8979a6c3f14b9420a2834818&amp;amp;scene=21#wechat_redirect&quot;&gt;主机&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484542&amp;amp;idx=2&amp;amp;sn=c347f4bc8979a6c3f14b9420a2834818&amp;amp;scene=21#wechat_redirect&quot;&gt;https://mp.weixin.qq.com/s/hhXYr3YjPVRxrzlJSZtbpA&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;1.记得原来有本讲装机的书把机箱（也就是不插任何线）叫做主机&lt;/p&gt;
+
+&lt;p&gt;ps：主机（这里是机箱）由CPU、内存、硬盘、光驱组成（之后聊）&lt;/p&gt;
+
+&lt;p&gt;2.主机在网络工程里可以理解为每一个连接到inter网上的比如说电脑啊，手机，路由器之类的。&lt;/p&gt;
+
+&lt;p&gt;突然想起有本讲计算机网络工程的下过一个定义”习惯上，大家把连接在因特网上的计算机都称为主机（host）”只要联网且关于发送与接收信息的终端设备，辣么都可以算作是主机，so路由器也算主机包括网上能租到的服务器之类的都算。这玩意又叫internet主机～与因特网相连的任何一台计算机｜上面内些都称为主机，每台主机都有一个唯一的Ip地址（but路由器这一块又不一样，下次聊）每台主机在互联网上的地位都是平等的，这一句很重要，as很多兄dei（包括me）都认为咱的权限是要低于一个网页or应用的，但其实在他为咱提供数据的时候我们都属于主机，所以地位是平等的只是他们是发送咱是接收罢了&lt;/p&gt;
+
+&lt;p&gt;3.&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484585&amp;amp;idx=5&amp;amp;sn=7fee77f9e617326dcec186e13a718467&amp;amp;scene=21#wechat_redirect&quot;&gt;什么是网络&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484585&amp;amp;idx=5&amp;amp;sn=7fee77f9e617326dcec186e13a718467&amp;amp;scene=21#wechat_redirect&quot;&gt;https://mp.weixin.qq.com/s/0_D8ZEa6soMnhRCND6OeoA&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;呼～总算碰到了一个比较重磅的question了&lt;/p&gt;
+
+&lt;p&gt;首先先来看看什么是因特网（Internet（介个词是网络的统称，so感觉有点问题））&lt;/p&gt;
+
+&lt;p&gt;因特网是最大的网络，由核心部分和边缘部分构成（也就是由边缘的主机和核心的线路构成）&lt;/p&gt;
+
+&lt;p&gt;又来了一个问题，什么是网络？&lt;/p&gt;
+
+&lt;p&gt;我觉得有本book给的定义挺好的（结果发现百度百科就用的这句）：&lt;/p&gt;
+
+&lt;p&gt;网络是由若干节点（主机）和连接这些节点的链路构成（如路由器或者网线），表示诸多对象及其相互联系&lt;/p&gt;
+
+&lt;p&gt;（我觉得根据很多大佬写的博文以及另外的一些教材，应该把定义再补上：可以进行数据交换）&lt;/p&gt;
+
+&lt;p&gt;用这个定义看咱这几天聊的&lt;/p&gt;
+
+&lt;p&gt;『城域网（Metropolitan Area Network，MAN）&lt;/p&gt;
+
+&lt;p&gt;局域网（Local Area Network，LAN）&lt;/p&gt;
+
+&lt;p&gt;个人区域网（Personal Area Network，PAN）&lt;/p&gt;
+
+&lt;p&gt;广域网（Wide Area Network，WAN）』&lt;/p&gt;
+
+&lt;p&gt;发现从个人区域网再到广域网好像都是这样：&lt;/p&gt;
+
+&lt;p&gt;1.他们都互相相连（不一定非要无线，不然咋解释网线也可以宽带上网（只要上网就算是连接到网络了））&lt;/p&gt;
+
+&lt;p&gt;2.她们都可以传输数据（其他的都不用说。蓝牙可能有点恶心，&lt;/p&gt;
+
+&lt;p&gt;：就可以想一想，蓝牙耳机就是手机得给耳机传输音频数据，蓝牙鼠标就是鼠标给手机传送他把咱的动作转化成的电信号）&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;正文&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;IP地址：笼统的来说就可以理解为网络中的家的地址，当主机和网络产生交互的时候，既然是交互，肯定信息得有往有来～主机获得的信息和发送的请求都会以数据包的形式发到对应的另一个主机（这样就产生了交互，包括访问网址），但是又不知道另一个主机的地方（不然咋发……），所以IP地址就相当于是现实中的地址，确保数据包可以送到正确位置&lt;/p&gt;</content><author><name>AGZX</name></author><category term="n." /><summary type="html">ip</summary></entry><entry><title type="html">internet｜骚操作｜主题美化（8）『状态栏沉浸（3）』</title><link href="http://localhost:4000/2020/07/25/internet-%E9%AA%9A%E6%93%8D%E4%BD%9C-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96-8-%E7%8A%B6%E6%80%81%E6%A0%8F%E6%B2%89%E6%B5%B8-3.html" rel="alternate" type="text/html" title="internet｜骚操作｜主题美化（8）『状态栏沉浸（3）』" /><published>2020-07-25T00:00:00+08:00</published><updated>2020-07-25T00:00:00+08:00</updated><id>http://localhost:4000/2020/07/25/internet%7C%E9%AA%9A%E6%93%8D%E4%BD%9C%7C%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96(8)%E3%80%8E%E7%8A%B6%E6%80%81%E6%A0%8F%E6%B2%89%E6%B5%B8(3)%E3%80%8F-----------</id><content type="html" xml:base="http://localhost:4000/2020/07/25/internet-%E9%AA%9A%E6%93%8D%E4%BD%9C-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96-8-%E7%8A%B6%E6%80%81%E6%A0%8F%E6%B2%89%E6%B5%B8-3.html">&lt;h2 id=&quot;internet骚操作主题美化8状态栏沉浸3&quot;&gt;internet｜骚操作｜主题美化（8）『状态栏沉浸（3）』&lt;/h2&gt;
+
+&lt;p&gt;大家好啊，今天接着聊状态栏沉浸吧&lt;/p&gt;
+
+&lt;p&gt;呜呜呜呜～有兄弟or集美取关了……（总共就木有几个银，，，，一个都价值千金捏）&lt;/p&gt;
+
+&lt;p&gt;只能say sorry that没有提供好内容吧，&lt;/p&gt;
+
+&lt;p&gt;but&lt;/p&gt;
+
+&lt;p&gt;我会改进的呢
+&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoNr19BkJJ802uHqUwMTCa8sHP2wo5cZWH6lBLJTQBZnlT8FkhbmoBnLhxNP7Jc2KhZHPWvu6XlsAQ/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;前情提要：&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484492&amp;amp;idx=1&amp;amp;sn=10b67fa2731a43fe9459daaf6568aaf5&amp;amp;scene=21#wechat_redirect&quot;&gt;状态栏沉浸（1）&lt;/a&gt;｜｜&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484499&amp;amp;idx=1&amp;amp;sn=a9c29ff8324af56820f37fe686884a3d&amp;amp;scene=21#wechat_redirect&quot;&gt;状态栏沉浸（2）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoNr19BkJJ802uHqUwMTCa8syC58LVemoq3TEyfkBuSdBrSH5zPKdHuHOtKDK9RuSnoMHMg62ic35jg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznldnbaicFIpNnKejI3fo2HevqRhvWHQ8k8TXI8CgyfSN0qVGbqWJj3Wg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoPvhibcLnC5hTcXqKITTp19OH29NLiam9n4fQKickXsBhK690REU4AB7V3lQCIYMvKB7L1fbALqaCoAw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;啥app&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznibrWgBLOicIoeicsg3LGoSS6wTeO5SJomic3dofibictDVGkkudHjOHZekDA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;
+&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_jpg/tMsLbdfwxoNs9AjrLtt8zPMn04rm0qZW2d9Cxjick8hnEVKiakRWPLvYicFJD2nzY4rxNEpgguSEmlFgYNAAMXvyg/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;
+this one～MIUI状态栏修改&lt;/p&gt;
+
+&lt;p&gt;下载连接：&lt;/p&gt;
+
+&lt;p&gt;https://www.coolapk.com/apk/cn.iqianye.miui2&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoNr19BkJJ802uHqUwMTCa8sSp3hOnFoDHTkbD7VvvWxBZDUCaJJicnFloaNozOn9ghH7gaMN47c1PA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2Iznj8Q2gQs4btqOD1edLs4NiaCEfe3CkKjKAKKcDsnGESOuQfhkHY4r5Hw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoPvhibcLnC5hTcXqKITTp19OAGQ6v3CMNd82aSzq3ib9HJibexbJUfTD5lLKgnnJicYrmOlSF7BtnrbBg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*咋用*&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznibrWgBLOicIoeicsg3LGoSS6wTeO5SJomic3dofibictDVGkkudHjOHZekDA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;介个app跟前几次聊到的修改还不一样，他不能调节状态栏区域的高度，而是可以调节状态栏图标的高度，so，就会导致&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_jpg/tMsLbdfwxoNs9AjrLtt8zPMn04rm0qZWkAjQfErVYzVAa4ogbVBas0dBIF3V3E8JnubjDHPhNxSCbmumiaFJYBA/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;
+即使图标改小了，但是上面还是会突出一块儿&lt;/p&gt;
+
+&lt;p&gt;emmm扯回正题，&lt;/p&gt;
+
+&lt;p&gt;first→进入app&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_jpg/tMsLbdfwxoNs9AjrLtt8zPMn04rm0qZW2EvyUicO69ib988POIuEHL9GTIAaYA20oRFmWoibfwrarX2WcflGBnVibg/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;
+then可以选择系统模式或者面具模式（也就是直接修改system分区或者，通过刷入面具模块来修改，再提一句吧，各位应该都知道～就是直接刷写系统的话很容易变砖了then救不回来了，所以面具还是稳妥，不过修改dpi也可以让图标跟状态栏同时缩小的，所以说具体的高度调节跟DPI有关，且DPI又随手机定so这个就没提）&lt;/p&gt;
+
+&lt;p&gt;Third～&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_jpg/tMsLbdfwxoNs9AjrLtt8zPMn04rm0qZWPIAJqEnPLKiaicwPGp3hZ8sFzjUQLsFNibBsySMspCkL0RUxibGWkVukCg/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;
+直接修改system的话，重启一下ui就可以&lt;/p&gt;
+
+&lt;p&gt;用面具的话软重启就可以，快&lt;/p&gt;
+
+&lt;p&gt;ps：if dont know面具或者system或root是啥的话，可以看看最早的几篇文章&lt;/p&gt;
+
+&lt;p&gt;嗯就是这些，剩下俩看第二三更&lt;em&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/tMsLbdfwxoM12GmQGZYFy7azn1RM2IznibrWgBLOicIoeicsg3LGoSS6wTeO5SJomic3dofibictDVGkkudHjOHZekDA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;img&quot; /&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>AGZX</name></author><category term="主题美化" /><summary type="html">internet｜骚操作｜主题美化（8）『状态栏沉浸（3）』</summary></entry><entry><title type="html">原生电池曲线</title><link href="http://localhost:4000/2020/07/25/%E5%8E%9F%E7%94%9F%E7%94%B5%E6%B1%A0%E6%9B%B2%E7%BA%BF.html" rel="alternate" type="text/html" title="原生电池曲线" /><published>2020-07-25T00:00:00+08:00</published><updated>2020-07-25T00:00:00+08:00</updated><id>http://localhost:4000/2020/07/25/%E5%8E%9F%E7%94%9F%E7%94%B5%E6%B1%A0%E6%9B%B2%E7%BA%BF----------</id><content type="html" xml:base="http://localhost:4000/2020/07/25/%E5%8E%9F%E7%94%9F%E7%94%B5%E6%B1%A0%E6%9B%B2%E7%BA%BF.html">&lt;h2 id=&quot;原生电池曲线&quot;&gt;原生电池曲线&lt;/h2&gt;
+
+&lt;p&gt;前情提要：&lt;/p&gt;
+
+&lt;p&gt;1.&lt;/p&gt;
+
+&lt;p&gt;原生与类原生&lt;/p&gt;
+
+&lt;p&gt;各家厂商所定制的系统UI等都是基于安卓开源计划&lt;/p&gt;
+
+&lt;p&gt;AOSP(Android Open-Source Project)&lt;/p&gt;
+
+&lt;p&gt;这是谷歌开源的安卓源代码，可供各厂商修改定制使用。安卓系统的另一部分是GMS(Google Mobile Service)，也就是GAPPS，（之前咱好像聊到过open gapps的卡刷包，可以上车谷歌服务）&lt;/p&gt;
+
+&lt;p&gt;通俗说就是谷歌全家桶&lt;/p&gt;
+
+&lt;p&gt;GMS部分是收费的服务(非常强大实用)&lt;/p&gt;
+
+&lt;p&gt;AOSP和GMS加在一起就是人原生安卓&lt;/p&gt;
+
+&lt;p&gt;相对的，所谓类原生安卓就比如说像EMUI或者MIUI之类的各手机厂商，根据自己的手机定制出来的&lt;/p&gt;
+
+&lt;p&gt;2.&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484270&amp;amp;idx=1&amp;amp;sn=d0e838ea2605b75b1200417accf06a2f&amp;amp;scene=21#wechat_redirect&quot;&gt;之前聊到过&lt;/a&gt;也就是各大系统厂商会隐藏一些安卓的原生&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247483881&amp;amp;idx=2&amp;amp;sn=d76db1ea24440efa813c210e274fb949&amp;amp;scene=21#wechat_redirect&quot;&gt;API&lt;/a&gt;或者再加入一些他们自己的功能，比如说电池统计曲线就是～也就是在省电设置里边看到电池从充满到现在的一个下降或者上升的过程or每个应用的占比之类的，安卓原生的电池统计方法跟一些厂商所定制出来的还不一样，所以就又可看性，&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484556&amp;amp;idx=1&amp;amp;sn=9fdb323e5cb80a089e4935cbf42286ad&amp;amp;scene=21#wechat_redirect&quot;&gt;不过之前也说了各大厂商是没有留入口的so～就可以用创建快捷方式app来调用&lt;/a&gt;，今天第一更介个app就是起了创建快捷方式の这个作用&lt;/p&gt;
+
+&lt;p&gt;什么极致省电下次聊哈&lt;/p&gt;</content><author><name>AGZX</name></author><category term="n." /><summary type="html">原生电池曲线</summary></entry><entry><title type="html">什么是网络</title><link href="http://localhost:4000/2020/07/24/%E4%BB%80%E4%B9%88%E6%98%AF%E7%BD%91%E7%BB%9C.html" rel="alternate" type="text/html" title="什么是网络" /><published>2020-07-24T00:00:00+08:00</published><updated>2020-07-24T00:00:00+08:00</updated><id>http://localhost:4000/2020/07/24/%E4%BB%80%E4%B9%88%E6%98%AF%E7%BD%91%E7%BB%9C----------------</id><content type="html" xml:base="http://localhost:4000/2020/07/24/%E4%BB%80%E4%B9%88%E6%98%AF%E7%BD%91%E7%BB%9C.html">&lt;h2 id=&quot;什么是网络&quot;&gt;什么是网络&lt;/h2&gt;
+
+&lt;p&gt;呼～总算碰到了一个比较重磅的question了&lt;/p&gt;
+
+&lt;p&gt;首先先来看看什么是因特网（Internet（介个词是网络的统称，so感觉有点问题））&lt;/p&gt;
+
+&lt;p&gt;因特网是最大的网络，由&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484556&amp;amp;idx=4&amp;amp;sn=b59c54a7d3df69d2b68f31b608445545&amp;amp;scene=21#wechat_redirect&quot;&gt;核心部分和边缘部分构成&lt;/a&gt;（也就是由边缘的&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484542&amp;amp;idx=2&amp;amp;sn=c347f4bc8979a6c3f14b9420a2834818&amp;amp;scene=21#wechat_redirect&quot;&gt;主机&lt;/a&gt;和核心的线路构成）&lt;/p&gt;
+
+&lt;p&gt;又来了一个问题，什么是网络？&lt;/p&gt;
+
+&lt;p&gt;我觉得有本book给的定义挺好的（结果发现百度百科就用的这句）：&lt;/p&gt;
+
+&lt;p&gt;网络是由若干节点（&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484542&amp;amp;idx=2&amp;amp;sn=c347f4bc8979a6c3f14b9420a2834818&amp;amp;scene=21#wechat_redirect&quot;&gt;主机&lt;/a&gt;）和连接这些节点的链路构成（如&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI4Nzc2MzA3OQ==&amp;amp;mid=2247484565&amp;amp;idx=2&amp;amp;sn=ef2b2603415197fa07280f7bc358d9f3&amp;amp;scene=21#wechat_redirect&quot;&gt;路由&lt;/a&gt;器或者网线），表示诸多对象及其相互联系&lt;/p&gt;
+
+&lt;p&gt;（我觉得根据很多大佬写的博文以及另外的一些教材，应该把定义再补上：可以进行数据交换）&lt;/p&gt;
+
+&lt;p&gt;用这个定义看咱这几天聊的&lt;/p&gt;
+
+&lt;p&gt;『城域网（Metropolitan Area Network，MAN）&lt;/p&gt;
+
+&lt;p&gt;局域网（Local Area Network，LAN）&lt;/p&gt;
+
+&lt;p&gt;个人区域网（Personal Area Network，PAN）&lt;/p&gt;
+
+&lt;p&gt;广域网（Wide Area Network，WAN）』&lt;/p&gt;
+
+&lt;p&gt;发现从个人区域网再到广域网好像都是这样：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;1.他们都互相相连（不一定非要无线，不然咋解释网线也可以宽带上网（只要上网就算是连接到网络了））&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;2.她们都可以传输数据（其他的都不用说。蓝牙可能有点恶心，&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;：就可以想一想，蓝牙耳机就是手机得给耳机传输音频数据，蓝牙鼠标就是鼠标给手机传送他把咱的动作转化成的电信号）&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;嗯，拜拜，第一次五更真带劲&lt;/p&gt;</content><author><name>廉一鸣</name></author><category term="n." /><summary type="html">什么是网络</summary></entry><entry><title type="html">设计模式学习之装饰者模式</title><link href="http://localhost:4000/designpattern/2013/12/22/HFDP-Notes3.html" rel="alternate" type="text/html" title="设计模式学习之装饰者模式" /><published>2013-12-22T00:00:00+08:00</published><updated>2013-12-22T00:00:00+08:00</updated><id>http://localhost:4000/designpattern/2013/12/22/HFDP-Notes3</id><content type="html" xml:base="http://localhost:4000/designpattern/2013/12/22/HFDP-Notes3.html">&lt;p&gt;&lt;strong&gt;如下内容是学习《Head First 设计模式》第三部分《装饰者模式》所得，主要就是一些原文摘抄和少量自己的总结。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;装饰者模式定义&quot;&gt;装饰者模式定义&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;装饰者模式动态地将责任附加到对象上。若要扩展功能，装饰者提供了比继承更有弹性的替代方案。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;oo-原则&quot;&gt;OO 原则&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;对扩展开放，对修改关闭。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;书中示例的-c-实现版源码&quot;&gt;书中示例的 C++ 实现版源码&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mzlogin/DesignPatternDemos&quot; target=&quot;_blank&quot;&gt;这个 Solution 的 DecoratorPattern 工程里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;书中示例的类图&quot;&gt;书中示例的类图&lt;/h3&gt;
+
+&lt;p&gt;Visio 原图见&lt;a href=&quot;https://github.com/mzlogin/DesignPatternDemos/blob/master/DesignPatternDemos.vsd&quot; target=&quot;_blank&quot;&gt;这里&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/designpattern/DecoratorPattern.png&quot; width=&quot;80%&quot; alt=&quot;Decorator Pattern UML Class Diagram&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="DesignPattern" /><summary type="html">如下内容是学习《Head First 设计模式》第三部分《装饰者模式》所得，主要就是一些原文摘抄和少量自己的总结。</summary></entry><entry><title type="html">设计模式学习之观察者模式</title><link href="http://localhost:4000/designpattern/2013/12/03/HFDP-Notes2.html" rel="alternate" type="text/html" title="设计模式学习之观察者模式" /><published>2013-12-03T00:00:00+08:00</published><updated>2013-12-03T00:00:00+08:00</updated><id>http://localhost:4000/designpattern/2013/12/03/HFDP-Notes2</id><content type="html" xml:base="http://localhost:4000/designpattern/2013/12/03/HFDP-Notes2.html">&lt;p&gt;&lt;strong&gt;如下内容是学习《Head First 设计模式》第二部分《观察者模式》所得，主要就是一些原文的摘抄和少量自己的总结。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;观察者模式定义&quot;&gt;观察者模式定义&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;观察者模式定义了对象之间的一对多依赖，这样一来，当一个对象改变状态时，它的所有依赖者都会收到通知并自动更新。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;oo-原则&quot;&gt;OO 原则&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;为交互对象之间的松耦合设计而努力。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;吐槽&quot;&gt;吐槽&lt;/h3&gt;
+
+&lt;p&gt;作者直接使用 Java 标准库里的 Observer 和 Observable 等东东来讲，虽然阅读起来无障碍……但是。好吧，也没啥好但是的。&lt;/p&gt;
+
+&lt;h3 id=&quot;书中示例的-c-实现版源码&quot;&gt;书中示例的 C++ 实现版源码&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mzlogin/DesignPatternDemos&quot; target=&quot;_blank&quot;&gt;这个 Solution 的 ObserverPattern 工程里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;书中示例的类图&quot;&gt;书中示例的类图&lt;/h3&gt;
+
+&lt;p&gt;Visio 原图见&lt;a href=&quot;https://github.com/mzlogin/DesignPatternDemos/blob/master/DesignPatternDemos.vsd&quot; target=&quot;_blank&quot;&gt;『这里』&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/designpattern/ObserverPattern.png&quot; width=&quot;80%&quot; alt=&quot;Observer Pattern UML Class Diagram&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="DesignPattern" /><summary type="html">如下内容是学习《Head First 设计模式》第二部分《观察者模式》所得，主要就是一些原文的摘抄和少量自己的总结。</summary></entry><entry><title type="html">设计模式学习之策略模式</title><link href="http://localhost:4000/designpattern/2013/11/23/HFDP-Notes1.html" rel="alternate" type="text/html" title="设计模式学习之策略模式" /><published>2013-11-23T00:00:00+08:00</published><updated>2013-11-23T00:00:00+08:00</updated><id>http://localhost:4000/designpattern/2013/11/23/HFDP-Notes1</id><content type="html" xml:base="http://localhost:4000/designpattern/2013/11/23/HFDP-Notes1.html">&lt;p&gt;&lt;strong&gt;如下内容是学习《Head First 设计模式》第一部分《设计模式入门》所得，主要就是一些原文的摘抄和少量自己的总结。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;OO 原则是我们的目标，设计模式是我们的做法。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;oo-原则&quot;&gt;OO 原则&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;封装变化。&lt;/li&gt;
+  &lt;li&gt;多用组合，少用继承。&lt;/li&gt;
+  &lt;li&gt;针对接口编程，不针对实现编程。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;在这一部分，书中通过讲解对一个简单 SimUDuck 根据新需求的重新设计，不断优化过程中，顺理成章地将策略模式讲解清楚了，策略模式「严肃」定义：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;策略模式定义了算法族，分别封装起来让它们之间可以相互替换，此模式让算法的变化独立于使用算法的用户。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个模式的存在以前上面的设计原则第一条直接刷新了我之前对 OO 设计的一个认识：&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;抽象出不变的作为基类，将不同的特化到子类中去。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;这个认识本身也没错，但是显然需要结合&lt;em&gt;封装变化&lt;/em&gt;的设计原则使用才能适用更多场景，设计出弹性更好的系统来。&lt;/p&gt;
+
+&lt;p&gt;书中的示例代码都是使用 java，我用 C++ 将策略模式示例重新实现了一下，源码放在&lt;a href=&quot;https://github.com/mzlogin/DesignPatternDemos&quot; target=&quot;_blank&quot;&gt;这个 Solution 的 StrategyPattern 工程里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;UML 类图如下，Visio 原图见&lt;a href=&quot;https://github.com/mzlogin/DesignPatternDemos/blob/master/DesignPatternDemos.vsd&quot; target=&quot;_blank&quot;&gt;『这里』&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/designpattern/StrategyPattern.png&quot; width=&quot;80%&quot; alt=&quot;Strategy Pattern UML Class Diagram&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="DesignPattern" /><summary type="html">如下内容是学习《Head First 设计模式》第一部分《设计模式入门》所得，主要就是一些原文的摘抄和少量自己的总结。</summary></entry><entry><title type="html">有 static 变量的 namespace 被多个 cpp 包含</title><link href="http://localhost:4000/cplusplus/2013/10/26/namespace-with-a-static-variable.html" rel="alternate" type="text/html" title="有 static 变量的 namespace 被多个 cpp 包含" /><published>2013-10-26T00:00:00+08:00</published><updated>2013-10-26T00:00:00+08:00</updated><id>http://localhost:4000/cplusplus/2013/10/26/namespace-with-a-static-variable</id><content type="html" xml:base="http://localhost:4000/cplusplus/2013/10/26/namespace-with-a-static-variable.html">&lt;p&gt;&lt;strong&gt;有如下三个文件&lt;/strong&gt;
+&lt;em&gt;header.h&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#pragma once
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;namespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;NS1&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_var&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;src.cpp&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &quot;header.h&quot;
+&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_var&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;NS1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;main.cpp&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &quot;header.h&quot;
+&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;NS1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;NS1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;print_var&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这三个文件是尝试的基础。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Situation A:&lt;/strong&gt;
+将 header.h 里的 var 的 static 去掉，发现编译通过，但是链接时提示：
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main.obj : error LNK2005: &quot;int NS1::var&quot; (?var@NS1@@3HA) 已经在 src.obj 中定义，fatal error LNK1169: 找到一个或多个多重定义的符号。&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Situation B:&lt;/strong&gt;
+还原 static，编译通过，运行生成的 EXE，输出：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10 10&lt;/code&gt; 与预期的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10 0&lt;/code&gt;不符。&lt;/p&gt;
+
+&lt;p&gt;根据 static 对变量的作用域的影响，推断应该是预编译过程中 NS1::var 分别被引入了 src.cpp 和 main.cpp，而在两个源文件中的 NS1::var 非同一个变量，而且其作用域分别为各自所在的 cpp 文件。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;求证：&lt;/strong&gt;
+将两个 cpp 文件中的 printf 语句都改为&lt;/p&gt;
+
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d address is : 0x%X&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;NS1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NS1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;输出为：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;10 address is : 0x3C8004
+10 address is : 0x3C8000
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;可见两个源文件中的 var 非同一个。&lt;/p&gt;</content><author><name></name></author><category term="CPlusPlus" /><summary type="html">有如下三个文件 header.h</summary></entry></feed>

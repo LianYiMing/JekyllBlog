@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+	<body>
+		<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="/img/favicon.jpg">
+		<meta name="description" content="">
+		<meta name="keywords" content="廉一鸣">
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!--引出栅格试布局bootstrap的样式表-->
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet"  href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/blog.css">
+
+
+<title>
+	廉一鸣随想
+</title>
+		<style>
+			</style>
+		</head>
+		<nav class="navbar navbar-default" role="navigation">
+	<div id="navgaosi">
+		<div class="container-fluid" id="navcontainer">
+
+			<div class="navbar-header">
+
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse" style="color: rgba(256,256,256);text-shadow: #000000 5px 3px 3px;">
+					<!--style要在上方设置-->
+					<span class="glyphicon glyphicon-align-justify"></span>
+
+				</button>
+				<a class="navbar-brand" href="/" style="color: #ffffff;text-shadow: #000000 5px 3px 3px;">LianYiMing</a>
+
+			</div>
+			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+
+
+				 <button type="button" class="btn btn-default btn-sm " id="botton1">
+					<span class="glyphicon glyphicon-home"></span>
+					<a href="/">Home</a></button>
+
+
+				<button type="button" class="btn btn-default btn-sm" id="botton2">
+					<span class="glyphicon glyphicon-share-alt"></span>
+					<a href="https://www.lianyiming.com">BlogSite</a>
+				</button>
+
+				<button type="button" class="btn btn-default btn-sm" id="botton3">
+					<span class="glyphicon glyphicon-user"></span>
+					<a href="about.html">about</a>
+				</button>
+
+
+			</div>
+		</div>
+</nav>
+
+		<script>
+	function Lym() {num = Math.floor((Math.random() * 10));
+	console.log(num)
+	document.body.style.backgroundImage="url('/img/postBg/1.jpg')"
+	
+	}
+	setInterval(Lym,3000)
+</script>
+<meta name="referrer" content="never">
+<!--让公众号图片认为自己在微信里，避免“来自公众号不可引用”-->
+<style type="text/css">
+	body{
+		
+		-webkit-backdrop-filter: blur(10px);
+		backdrop-filter: blur(10px);
+		background-attachment: fixed;
+	}
+	
+</style>
+<title>
+	
+</title>
+<article>
+	<div class="container">
+		<div class="row">
+			<div class="articlebody">
+
+				<p><strong>有如下三个文件</strong>
+<em>header.h</em></p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#pragma once
+</span><span class="k">namespace</span> <span class="n">NS1</span>
+<span class="p">{</span>
+	<span class="k">static</span> <span class="kt">int</span> <span class="n">var</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kt">void</span> <span class="nf">print_var</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p><em>src.cpp</em></p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;stdio.h&gt;
+#include "header.h"
+</span>
+<span class="kt">void</span> <span class="nf">print_var</span><span class="p">()</span>
+<span class="p">{</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">NS1</span><span class="o">::</span><span class="n">var</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><em>main.cpp</em></p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;stdio.h&gt;
+#include "header.h"
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">NS1</span><span class="o">::</span><span class="n">var</span><span class="p">);</span>
+	<span class="n">NS1</span><span class="o">::</span><span class="n">var</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+	<span class="n">print_var</span><span class="p">();</span>
+	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>这三个文件是尝试的基础。</p>
+
+<p><strong>Situation A:</strong>
+将 header.h 里的 var 的 static 去掉，发现编译通过，但是链接时提示：
+<code class="language-plaintext highlighter-rouge">main.obj : error LNK2005: "int NS1::var" (?var@NS1@@3HA) 已经在 src.obj 中定义，fatal error LNK1169: 找到一个或多个多重定义的符号。</code></p>
+
+<p><strong>Situation B:</strong>
+还原 static，编译通过，运行生成的 EXE，输出：<code class="language-plaintext highlighter-rouge">10 10</code> 与预期的<code class="language-plaintext highlighter-rouge">10 0</code>不符。</p>
+
+<p>根据 static 对变量的作用域的影响，推断应该是预编译过程中 NS1::var 分别被引入了 src.cpp 和 main.cpp，而在两个源文件中的 NS1::var 非同一个变量，而且其作用域分别为各自所在的 cpp 文件。</p>
+
+<p><strong>求证：</strong>
+将两个 cpp 文件中的 printf 语句都改为</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">printf</span><span class="p">(</span><span class="s">"%d address is : 0x%X</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">NS1</span><span class="o">::</span><span class="n">var</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">NS1</span><span class="o">::</span><span class="n">var</span><span class="p">);</span>
+</code></pre></div></div>
+<p>输出为：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>10 address is : 0x3C8004
+10 address is : 0x3C8000
+</code></pre></div></div>
+<p>可见两个源文件中的 var 非同一个。</p>
+
+			</div>
+		</div>
+	</div>
+	<ul class="poster">
+		<li>
+			<a href="" data-toggle="toolip" data-placement="top"
+			 title="文件被多个中间文件输出目录相同的工程包含">
+				上一篇文章
+				<br />
+				<span>文件被多个中间文件输出目录相同的工程包含</span>
+			</a>
+		</li>
+<li>
+	<a href="" 
+	data-toggle="toolip" data-placement="top" title="设计模式学习之策略模式"
+	</li>
+	</ul>
+</article>
+
+		<footer>
+	
+		
+		
+	<div class="container" id="footerbox">
+		<p id="footerlym">
+			Copyright 2020 ❤ LianYiMing
+			<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小站已在各种风雨中苟活 <span id="timer"></span>
+		</p>
+		</div>
+		<script src="/js/websiteTimer.js"> </script>
+		<!--放后边，不然会报错,还是解析顺序原因-->
+	<footer\>
+	</body>
+</html>

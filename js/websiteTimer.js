@@ -38,7 +38,9 @@ var time =  year + "年" + month + "月" + date +"天" + hour +  "时" + minute 
 if ( year == 0 ) {
 	var time =  month + "月" + date +"天" + hour +  "时" + minute + "分"   +  second +"秒"
 }
-
+if ( year == 0 && month == 0 ) {
+	var time =   date +"天" + hour +  "时" + minute + "分"   +  second +"秒"
+}
 document.getElementById("timer").innerHTML = time ;
 console.log("廉一鸣好帅")
 }

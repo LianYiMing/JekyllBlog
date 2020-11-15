@@ -60,26 +60,75 @@
 		</div>
 </nav>
 
-		<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+		<script>
+	function Lym() {num = Math.floor((Math.random() * 10));
+	console.log(num)
+	document.body.style.backgroundImage="url('/img/postBg/1.jpg')"
+	
+	}
+	setInterval(Lym,3000)
+</script>
+<meta name="referrer" content="never">
+<!--让公众号图片认为自己在微信里，避免“来自公众号不可引用”-->
+<style type="text/css">
+	body{
+		
+		-webkit-backdrop-filter: blur(10px);
+		backdrop-filter: blur(10px);
+		background-attachment: fixed;
+	}
+	
 </style>
+<title>
+	
+</title>
+<article>
+	<div class="container">
+		<div class="row">
+			<div class="articlebody">
 
-<div class="container">
-  <h1>404</h1>
+				<p><strong>如下内容是学习《Head First 设计模式》第三部分《装饰者模式》所得，主要就是一些原文摘抄和少量自己的总结。</strong></p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<h3 id="装饰者模式定义">装饰者模式定义</h3>
+
+<blockquote>
+  <p>装饰者模式动态地将责任附加到对象上。若要扩展功能，装饰者提供了比继承更有弹性的替代方案。</p>
+</blockquote>
+
+<h3 id="oo-原则">OO 原则</h3>
+
+<ol>
+  <li>对扩展开放，对修改关闭。</li>
+</ol>
+
+<h3 id="书中示例的-c-实现版源码">书中示例的 C++ 实现版源码</h3>
+
+<p><a href="https://github.com/mzlogin/DesignPatternDemos" target="_blank">这个 Solution 的 DecoratorPattern 工程里</a>。</p>
+
+<h3 id="书中示例的类图">书中示例的类图</h3>
+
+<p>Visio 原图见<a href="https://github.com/mzlogin/DesignPatternDemos/blob/master/DesignPatternDemos.vsd" target="_blank">这里</a>:</p>
+
+<p><img src="/images/posts/designpattern/DecoratorPattern.png" width="80%" alt="Decorator Pattern UML Class Diagram" /></p>
+
+			</div>
+		</div>
+	</div>
+	<ul class="poster">
+		<li>
+			<a href="" data-toggle="toolip" data-placement="top"
+			 title="设计模式学习之观察者模式">
+				上一篇文章
+				<br />
+				<span>设计模式学习之观察者模式</span>
+			</a>
+		</li>
+<li>
+	<a href="" 
+	data-toggle="toolip" data-placement="top" title="什么是网络"
+	</li>
+	</ul>
+</article>
 
 		<footer>
 	

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+	<body>
+		<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="/img/favicon.jpg">
+		<meta name="description" content="">
+		<meta name="keywords" content="廉一鸣">
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!--引出栅格试布局bootstrap的样式表-->
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet"  href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/blog.css">
+
+
+<title>
+	廉一鸣随想
+</title>
+		<style>
+			</style>
+		</head>
+		<nav class="navbar navbar-default" role="navigation">
+	<div id="navgaosi">
+		<div class="container-fluid" id="navcontainer">
+
+			<div class="navbar-header">
+
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse" style="color: rgba(256,256,256);text-shadow: #000000 5px 3px 3px;">
+					<!--style要在上方设置-->
+					<span class="glyphicon glyphicon-align-justify"></span>
+
+				</button>
+				<a class="navbar-brand" href="/" style="color: #ffffff;text-shadow: #000000 5px 3px 3px;">LianYiMing</a>
+
+			</div>
+			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+
+
+				 <button type="button" class="btn btn-default btn-sm " id="botton1">
+					<span class="glyphicon glyphicon-home"></span>
+					<a href="/">Home</a></button>
+
+
+				<button type="button" class="btn btn-default btn-sm" id="botton2">
+					<span class="glyphicon glyphicon-share-alt"></span>
+					<a href="https://www.lianyiming.com">BlogSite</a>
+				</button>
+
+				<button type="button" class="btn btn-default btn-sm" id="botton3">
+					<span class="glyphicon glyphicon-user"></span>
+					<a href="about.html">about</a>
+				</button>
+
+
+			</div>
+		</div>
+</nav>
+
+		<script>
+	function Lym() {num = Math.floor((Math.random() * 10));
+	console.log(num)
+	document.body.style.backgroundImage="url('/img/postBg/1.jpg')"
+	
+	}
+	setInterval(Lym,3000)
+</script>
+<meta name="referrer" content="never">
+<!--让公众号图片认为自己在微信里，避免“来自公众号不可引用”-->
+<style type="text/css">
+	body{
+		
+		-webkit-backdrop-filter: blur(10px);
+		backdrop-filter: blur(10px);
+		background-attachment: fixed;
+	}
+	
+</style>
+<title>
+	
+</title>
+<article>
+	<div class="container">
+		<div class="row">
+			<div class="articlebody">
+
+				<ul>
+  <li>
+    <p>进程与线程的差别</p>
+
+    <p>进程是程序的一次执行。线程可以理解为进程中执行的一段程序片段。在一个多任务环境下中下面的概念可以帮助我们理解两者的区别。</p>
+
+    <p>进程间是独立的，这表现在内存空间，上下文环境上；线程运行在进程空间里。一般来讲（不使用特殊技术），进程无法突破进程边界存取其它进程内的存储空间；而线程由于处于线程空间内，所以同一进程所产生的线程共享内一内存空间。同一进程中的两段代码不能够同时执行，除非引入线程。</p>
+
+    <p>线程是属于进程的，当进程退出时该进程所产生的线程都会被强制退出并清除。线程占用的资源要少于进程所占用的资料。</p>
+
+    <p>进程和线程都可以有优先级。</p>
+  </li>
+  <li>
+    <p>进程间通信的方式</p>
+
+    <p>现在最常用进程间通信的方式有信号，信号量，消息队列，共享内存。</p>
+  </li>
+  <li>
+    <p>线程同步的方法</p>
+
+    <p>临界区，互斥量，信号量，事件。</p>
+  </li>
+  <li>
+    <p>DLL 文件的作用</p>
+
+    <p>(1)拓展应用程序</p>
+
+    <p>(2)便于程序员合作</p>
+
+    <p>(3)节省内存</p>
+
+    <p>(4)共享程序资源</p>
+
+    <p>(5)解决应用程序本地化问题</p>
+  </li>
+  <li>
+    <p>什么是存储过程?</p>
+
+    <p>存储过程是一组为了完成特定功能的 SQL 语句集。</p>
+  </li>
+  <li>
+    <p>什么是触发器?</p>
+
+    <p>触发器是一个特殊的存储过程，它的执行不是由程序调动，也不由手工启动，而是由事件来触发。</p>
+  </li>
+  <li>
+    <p>什么是事务?</p>
+
+    <p>事务是访问并可能更新数据库中各种数据项的一个程序执行单元。</p>
+
+    <p>(在关系数据库中，一个事务可以是一条SQL语句，一组 SQL 语句或整个程序)</p>
+  </li>
+  <li>
+    <p>事务的几个特性</p>
+
+    <p>(1)一致性：将事务中所做的操作捆绑成一个原子单元，即对于事务所进行的数据修改等操作，要么全部执行，要么全部不执行。</p>
+
+    <p>(2)原子性：事务在完成时，必须使所有的数据都保持一致状态，而且在相关数据中，所有规则都必须应用于事务的修改，以保持所有数据的完整性。事务结束时，所有的内部数据结构都应该是正确的。</p>
+
+    <p>(3)隔离性：由并发事务所做的修改必须与任何其他事务所做的修改相隔离。事务查看数据时数据所处的状态，要么是被另一并发事务修改之前的状态，要么是被另一并发事务修改之后的状态。即事务不会查看由另一个并发事务正在修改的数据。这种隔离方式也叫可串行性。</p>
+
+    <p>(4)持久性：事务完成之后，它对系统的影响是永久的，即使出现系统故障也是如此。</p>
+  </li>
+  <li>
+    <p>什么是 ADO?它与 ODBC 比起来哪种方式快?</p>
+
+    <p>ADO(ActiveX Data Objects)是一个用于存取数据源的 COM 组件。它提供了编程语言和统一数据访问方式的 OLE DB 的一个中间层。允许开发人员编写访问数据的代码而不用关心数据库是如何实现的，而只用关心到数据库的连接。</p>
+
+    <p>ADO 更快。(这个网上争议很多)</p>
+  </li>
+</ul>
+
+			</div>
+		</div>
+	</div>
+	<ul class="poster">
+		<li>
+			<a href="" data-toggle="toolip" data-placement="top"
+			 title="C++ 语言基础">
+				上一篇文章
+				<br />
+				<span>C++ 语言基础</span>
+			</a>
+		</li>
+<li>
+	<a href="" 
+	data-toggle="toolip" data-placement="top" title="简单的全排列算法实现"
+	</li>
+	</ul>
+</article>
+
+		<footer>
+	
+		
+		
+	<div class="container" id="footerbox">
+		<p id="footerlym">
+			Copyright 2020 ❤ LianYiMing
+			<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小站已在各种风雨中苟活 <span id="timer"></span>
+		</p>
+		</div>
+		<script src="/js/websiteTimer.js"> </script>
+		<!--放后边，不然会报错,还是解析顺序原因-->
+	<footer\>
+	</body>
+</html>
