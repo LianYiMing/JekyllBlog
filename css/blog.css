@@ -6,7 +6,7 @@ body {
 
 @font-face {
 	font-family: 'sleek';
-	src: url('/fonts/sleek.ttf');
+	src: url('./fonts/sleek.ttf');
 	format('truetype');
 }
 
