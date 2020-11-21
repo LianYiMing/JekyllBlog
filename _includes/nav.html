@@ -1,10 +1,10 @@
 <nav class="navbar navbar-default" role="navigation">
-	<div id="navbg">
+	<!--永远在样式表最下边测试样式表-->
 		<div class="container-fluid" id="navcontainer">
 
 			<div class="navbar-header">
 
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#LianYiMing-navbar-collapse">
 					<!--style要在上方设置-->
 					<span class="glyphicon glyphicon-align-justify"></span>
 
@@ -12,10 +12,10 @@
 				<a class="navbar-brand" href="/" style="color: white;">LianYiMing</a>
 
 			</div>
-			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+			<div class="collapse navbar-collapse" id="LianYiMing-navbar-collapse">
 
 				{% if page.home == 'index' %}
-				<button type="button" class="btn btn-default btn-sm disabled" >
+				<button type="button" class="btn btn-default btn-sm active" >
 					<span class="glyphicon glyphicon-home"></span>
 					<a href="/">Home</a></button>
 				{% else %}
@@ -36,6 +36,6 @@
 				</button>
 
 
-			</div>
+		
 		</div>
 </nav>
