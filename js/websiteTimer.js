@@ -41,7 +41,9 @@ if ( year == 0 ) {
 if ( year == 0 && month == 0 ) {
 	var time =   date +"天" + hour +  "时" + minute + "分"   +  second +"秒"
 }
+//为了对齐，上边两行作废
+var time =  year + "年" + month + "月" + date +"天" + hour +  "时" + minute + "分"   +  second +"秒"
 document.getElementById("timer").innerHTML = time ;
-console.log("廉一鸣好帅")
+
 }
 setInterval(lianyiming,1000);

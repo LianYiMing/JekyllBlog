@@ -1,6 +1,6 @@
 body {
 	background-color: #000000;
-	background-image: url('');
+	background-image: url('/img/2.jpg');
 	background-attachment: fixed;
 }
 
@@ -12,7 +12,7 @@ body {
 
 h1,h2,h3,h4,h5,a,p {
 	color: #F7F7F7;
-	font-family: ;
+	font-family: sleek;
 }
 
 p {
@@ -105,4 +105,8 @@ text-align: center;
 }
 #botton1,#botton2,#botton3>a{
 	color: #ffffff; 
+}
+.aplayerindex{
+	margin-top: 10px;
+	
 }
