@@ -90,7 +90,7 @@ color: #42b983;
 	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(5px);
 text-align: center;
-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .07), 0 1px 5px 0 rgba(0, 0, 0, .1)s;
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .07), 0 1px 5px 0 rgba(0, 0, 0, .1);
 }
 
 #navcontainer {
@@ -112,3 +112,10 @@ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .07), 0 1px 5px 0 rgba(0, 0, 0, .1)s;
 	color: #ffffff; 
 }
 
+
+.aplayer{
+	font-family: sleek;
+	border-radius: 3%;
+	backdrop-filter: blur(5px) brightness(1.1);
+	-webkit-backdrop-filter: blur(5px);
+}
