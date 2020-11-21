@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
-			<script src="/js/aplayer/APlayer.min.js"></script>
-		</head>
+
+		<script src="/js/aplayer/APlayer.min.js"></script>
+	</head>
 
 	<body>
-		<div class="music-player">
-			<div class="row">
-				<meting-js class="col l8 offset-l2 m10 offset-m1 s12" server="netease" type="playlist" id="5284412572" fixed='true'
-				 autoplay='false' theme='#42b983' loop='all' order='list' preload='auto' volume='0.7' list-folded='true'>
-				</meting-js>
-			</div>
-		</div>
+
+		<div class="aplayer" data-id="60198" data-server="netease" data-type="playlist"></div>
+		<div class="aplayer" data-id="002QE24W26baEy" data-server="tencent" data-type="album" data-fixed="true" data-autoplay="false"
+		 data-volume="1.0" data-list-max-height="200px" data-list-folded="true"></div>
 		{% include link.html %}
 		{% include nav.html %}
 		{{ content }}
