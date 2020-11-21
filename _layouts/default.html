@@ -5,7 +5,7 @@
 	<style
 	>
 		    .aplayer .aplayer-lrc p.aplayer-lrc-current {
-		        font-size: 17px;
+		        font-size: 16px;
 		        color: #42b983;
 		    }
 		
@@ -17,8 +17,10 @@
 
 	<script type="text/javascript" src="/js/ribbon-dynamic.js" async="async"></script>
 		
-		{% include link.html %}
+	
 		{% include nav.html %}
+			{% include link.html %}
+			<!--Link放下边，不然nav的css无法集成-->
 		{{ content }}
 		{% include footer.html %}
 	</body>
