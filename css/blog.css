@@ -26,6 +26,8 @@ p {
 
 .postbody>a:hover,
 .postbody>a:focus,
+.postcontent>p:hover,
+.postcontent>p:focus,
 .posttitle:hover,
 .posttitle:focus,
 .postsubtitle:hover,
@@ -62,11 +64,9 @@ p {
 	d line-height: 14px;
 }
 
-.postbody>a>.postcontent {
-
-
-	margin-left: 70px;
-	margin-right: 70px;
+.postbody>a>.postcontent{
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .postbodyxuhua {
