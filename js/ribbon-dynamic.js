@@ -155,10 +155,10 @@
     colorSaturation: "60%",
     colorBrightness: "50%",
     colorAlpha: .5,
-    colorCycleSpeed: 5,
+    colorCycleSpeed: 500,
     verticalPosition: "random",
     horizontalSpeed: 200,
-    ribbonCount: 3,
+    ribbonCount: 7,
     strokeSize: 0,
     parallaxAmount: -.2,
     animateSections: !0

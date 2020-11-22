@@ -1,6 +1,6 @@
-console.log(" Welcome to the light side of the source, young padawan.
+var wzq = "Welcome to the light side of the source, young padawan.
 You've made the first, very important step - you're reading the source code.
-    One step closer to learn something interesting you are...
+    One step closer to learn something interesting you are... 
 
                                ____                  
                             _.' :  `._               
@@ -48,4 +48,7 @@ You've made the first, very important step - you're reading the source code.
       But you don't have to do it now. Take my advice and take some time off. Make yourself a cup of coffee, tea,
       or anything you like to drink. And raise a glass for me ;)
       
-      Cheers!"  )
+      Cheers! "
+	  
+	  
+console.log(a);

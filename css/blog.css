@@ -121,13 +121,6 @@ p {
 	border: 0;
 }
 
-.navbar-default::before {
-	content: " ";
-	color: #000000;
-	display: block;
-	width: 10px;
-	height: 10px;
-}
 
 .navbar-collapse {
 	border: 0;
@@ -158,4 +151,8 @@ p {
 .navbar-collapse:focus,
 .navbar-collapse:hover {
 	background: rgba(0, 0, 0, 0);
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+	background-color: inherit;
 }
