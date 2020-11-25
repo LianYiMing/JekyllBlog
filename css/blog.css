@@ -119,6 +119,7 @@ p {
 .navbar-default {
 	background: rgba(0, 0, 0, 0);
 	border: 0;
+
 }
 
 
@@ -155,4 +156,16 @@ p {
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
 	background-color: inherit;
+}
+#block1{
+	background-color: #42B983;
+	height: 100px;
+	text-align: center;
+
+}
+#block2{
+	
+}
+#block3{
+	
 }
