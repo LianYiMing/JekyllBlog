@@ -15,6 +15,8 @@ home: index
 	</div>
 </div>
 {% for post in paginator.posts %}
+<div class="row">
+	<div class="col-md-9">
 <div class="postbodyxuhua">
 
 	<div class="postbody">
@@ -28,17 +30,7 @@ home: index
 				{{ post.subtitle }} 
 			</h3>
 			{% endif %}
-			{% if post.date %}
-
-			<h3 class="postdate">
-				<span class="glyphicon glyphicon-share-alt "></span>&nbsp;&nbsp;&nbsp;首发时间：
-
-				{{ post.date | date: "%Y-%m-%d"  }}
-				<br /><span class="glyphicon glyphicon-user "></span>&nbsp;&nbsp;&nbsp;作者：
-				{{ post.author }}
-			</h3>
-
-			{% endif %}
+		
 
 
 			<div class="postcontent">
@@ -48,5 +40,25 @@ home: index
 			</div>
 		</a>
 	</div>
+</div>
+</div>
+<div class="col-md-3">
+	<div class="postbodyxuhua">
+		<div class="postbody">
+			{% if post.date %}
+			
+			<h3 class="postdate">
+				<span class="glyphicon glyphicon-share-alt "></span>&nbsp;&nbsp;&nbsp;首发时间：
+			<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ post.date | date: "%Y-%m-%d"  }}
+				<br /><span class="glyphicon glyphicon-user "></span>&nbsp;&nbsp;&nbsp;作者：
+				<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ post.author }}
+			</h3>
+			
+			{% endif %}</div>
+			</div>
+</div>
+</div>
 </div>
 {% endfor %}

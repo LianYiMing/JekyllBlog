@@ -59,7 +59,7 @@ p {
 	margin-bottom: 10px;
 }
 
-.postbody>a>.postdate {
+.postdate {
 	font-size: 5px;
 	line-height: 14px;
 	font-weight: bold;
