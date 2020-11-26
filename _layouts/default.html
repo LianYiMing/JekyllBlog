@@ -19,10 +19,46 @@
 	<script type="text/javascript" src="/js/ribbon-dynamic.js" async="async"></script>
 		
 	
-		{% include nav.html %}
+		
 			{% include link.html %}
+			{% include nav.html %}
 			<!--Link放下边，不然nav的css无法集成-->
 		{{ content }}
+		
 		{% include footer.html %}
+		<script>
+			(function ($) {
+		  
+		  // Show the navbar when the page is scrolled up
+		  var MQL = 992;
+		
+		  //primary navigation slide-in effect
+		  if ($(window).width() > MQL) {
+		    var headerHeight = $('#navcontainerv').height();
+		    $(window).on('scroll', {
+		        previousTop: 0
+		      },
+		      function () {
+		        var currentTop = $(window).scrollTop();
+		        //check if user is scrolling up
+		        if (currentTop < this.previousTop) {
+		          //if scrolling up...
+		          if (currentTop > 0 && $('#navcontainer').hasClass('is-fixed')) {
+		            $('#navcontainer').addClass('is-visible');
+		          }
+		          // when scrolling to top
+		           else {
+		            $('#navcontainer').removeClass('is-visible is-fixed');
+		          }
+		        } else if (currentTop > this.previousTop) {
+		          //if scrolling down...
+		          $('#navcontainer').removeClass('is-visible');
+		          if (currentTop > headerHeight && !$('#navcontainer').hasClass('is-fixed')) $('#navcontainer').addClass('is-fixed');
+		        }
+		        this.previousTop = currentTop;
+		      });
+		  }
+		
+		})(jQuery); //https://blog.csdn.net/weixin_44580977/article/details/107603393</script>
 	</body>
 </html>
