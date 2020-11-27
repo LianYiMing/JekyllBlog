@@ -2,7 +2,7 @@
 <html>
 	<head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
+	<!--移动端bootstrap的正常显示问题-->
 	<style
 	>
 		    .aplayer .aplayer-lrc p.aplayer-lrc-current {
@@ -17,15 +17,17 @@
 	<body>
 
 	<script type="text/javascript" src="/js/ribbon-dynamic.js" async="async"></script>
-		
+				{% include link.html %}
 	
 		
-			{% include link.html %}
+		<body>
 			{% include nav.html %}
+		
 			<!--Link放下边，不然nav的css无法集成-->
 		{{ content }}
 		
 		{% include footer.html %}
+		</body>
 		<script>
 			(function ($) {
 		  
@@ -34,7 +36,7 @@
 		
 		  //primary navigation slide-in effect
 		  if ($(window).width() > MQL) {
-		    var headerHeight = $('#navcontainerv').height();
+		    var headerHeight = $('#navcontainer').height();
 		    $(window).on('scroll', {
 		        previousTop: 0
 		      },

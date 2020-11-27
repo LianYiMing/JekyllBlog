@@ -14,5 +14,7 @@
 
 就算是本地运行失败，push到Github也会报错pagebuildfailed
 
+2.nav不显示fiX，也就是class里设置了后不fix
 
+可能是css里已经定义了position
 
