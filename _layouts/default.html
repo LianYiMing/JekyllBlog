@@ -3,6 +3,7 @@
 	<head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!--移动端bootstrap的正常显示问题-->
+	<!--1，左右间距要大->
 	<style
 	>
 		    .aplayer .aplayer-lrc p.aplayer-lrc-current {
@@ -16,7 +17,7 @@
 
 	<body>
 
-	<script type="text/javascript" src="/js/ribbon-dynamic.js" async="async"></script>
+	<!--<script type="text/javascript" src="/js/ribbon-dynamic.js" async="async"></script>-->
 				{% include link.html %}
 	
 		
@@ -36,10 +37,10 @@
 		    function () {
 		    var currentTop = $(window).scrollTop();
 		    if (currentTop < this.previousTop) {
-		        $(".navbar-brand").text("Up"); /* optional for demo */
+		     
 		        $("#navcontainer").show();
 		    } else {
-		        $(".navbar-brand").text("Down");
+		       
 		        $("#navcontainer").hide();
 		    }
 		    this.previousTop = currentTop;

@@ -6,59 +6,59 @@ home: index
 <!--https://github.com/metowolf/MetingJS#option-->
 <div class="postbodyxuhua">
 	<div class="postbody">
-	
-		<meting-js
-			server="netease"
-			type="playlist"
-			id="5284412572"list-folded="true"list-max-height="300px" theme="#068237">
+
+		<meting-js server="netease" type="playlist" id="5284412572" list-folded="true" list-max-height="300px" theme="#068237">
 		</meting-js>
 	</div>
 </div>
-{% for post in paginator.posts %}
 <div class="row">
+	<!--没法同时两个文章左右显示->
+	<!--row放到for外面-->
+{% for post in paginator.posts %}
+
 	<div class="col-md-9">
-<div class="postbodyxuhua">
+		<div class="postbodyxuhua">
 
-	<div class="postbody">
+			<div class="postbody">
 
-		<a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
-			<h2 class="posttitle">
-			#<b>{{ post.title }}</b>	
-			</h2>
-			{% if post.subtitle %}
-			<h3 class="postsubtitle">
-				{{ post.subtitle }} 
-			</h3>
-			{% endif %}
-		
+				<a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
+					<h2 class="posttitle">
+						#<b>{{ post.title }}</b>
+					</h2>
+					{% if post.subtitle %}
+					<h3 class="postsubtitle">
+						{{ post.subtitle }}
+					</h3>
+					{% endif %}
 
+					{% if post.date %}
 
-			<div class="postcontent">
-			<p>	
-				{{ post.content | strip_html | truncate:200 }}
-			</p>	
+					<h3 class="postdate">
+						<span class="glyphicon glyphicon-share-alt "></span>&nbsp;&nbsp;&nbsp;首发时间：
+					
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ post.date | date: "%Y-%m-%d"  }}
+						<br /><span class="glyphicon glyphicon-user "></span>&nbsp;&nbsp;&nbsp;作者：
+					
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ post.author }}
+					</h3>
+
+					{% endif %}
+
+					<div class="postcontent">
+						<p>
+							{{ post.content | strip_html | truncate:200 }}
+						</p>
+					</div>
+				</a>
 			</div>
-		</a>
+		</div>
 	</div>
-</div>
-</div>
-<div class="col-md-3">
-	<div class="postbodyxuhua">
-		<div class="postbody">
-			{% if post.date %}
-			
-			<h3 class="postdate">
-				<span class="glyphicon glyphicon-share-alt "></span>&nbsp;&nbsp;&nbsp;首发时间：
-			<br />
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ post.date | date: "%Y-%m-%d"  }}
-				<br /><span class="glyphicon glyphicon-user "></span>&nbsp;&nbsp;&nbsp;作者：
-				<br />
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ post.author }}
-			</h3>
-			
-			{% endif %}</div>
-			</div>
-</div>
-</div>
-</div>
+
+
+
 {% endfor %}
+<div class="col-md-3">			
+				<h1>About me</h1>
+		</div>
+	<!--放前边。不然会在最后出现-->
+</div>
