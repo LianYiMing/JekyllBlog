@@ -2,6 +2,7 @@ body {
 	background-attachment: fixed;
 	margin-top: 12.25rem;
 	background-image: url('/img/2.jpg');
+	overflow: visible;
 }
 
 @font-face {
@@ -81,7 +82,11 @@ p {
 	font-size: smaller;
 	color: #a3a3a3;
 }
-
+ .wrapper{
+            background-color: #999999;
+            width:100%;
+            height:0px;
+        }
 .postbodyxuhua {
 	margin: 10px;
 	float: right;

@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		
+		<script type="text/javascript">
+			let wrapper = document.querySelector('.wrapper')
+			let scroll = new BScroll(wrapper)
+		</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!--移动端bootstrap的正常显示问题-->
-	<!--1，左右间距要大-->
+	<!--1，左右间距要大
+	<script src="https://unpkg.com/better-scroll/dist/bscroll.min.js"></script>-->
 	<style
 	>
 		    .aplayer .aplayer-lrc p.aplayer-lrc-current {
@@ -16,18 +22,20 @@
 	</head>
 
 	<body>
+		<div class="wrapper">
 <!--如果父元素没有指定高和宽，子元素貌似必须有高或宽和父元素一样-->
 	<!--<script type="text/javascript" src="/js/ribbon-dynamic.js" async="async"></script>-->
 				{% include link.html %}
 	
 		
-		<body>
+		
 			{% include nav.html %}
 		
 			<!--Link放下边，不然nav的css无法集成-->
 		{{ content }}
 		
 		{% include footer.html %}
+		</div>
 		</body>
 		<script>
 		$(window).scroll(
@@ -45,5 +53,5 @@
 		    }
 		    this.previousTop = currentTop;
 		});//https://www.it1352.com/569964.html</script>
-	</body>
+
 </html>
