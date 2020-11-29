@@ -1,44 +1,42 @@
-
-<nav class="navbar navbar-fixed-top" role="navigation" id="navcontainer">
+<nav class="navbar navbar-fixed-top xuhua" role="navigation" id="navcontainer">
 	<!--永远在样式表最下边测试样式表-->
+	<!--可以有多个class，空格隔开-->
 
-   
-			<div class="navbar-header ">
+	<div class="navbar-header ">
 
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#LianYiMing-navbar-collapse" id="navcontain">
-					<!--style要在上方设置-->
+		<!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#LianYiMing-navbar-collapse" id="navcontain">
+					style要在上方设置
 					<span class="glyphicon glyphicon-align-justify"></span>
 
-				</button>
-				<a class="navbar-brand" href="/" style="color: white;">LianYiMing</a>
+				</button>-->
+		<a class="navbar-brand" href="/" style="color: white;">LianYiMing</a>
+
+		<!--Css空格多个class
+http://medium.com-->
+		<button type="button" class="btn btn-default btn-sm no">
+			<span class="glyphicon glyphicon-home"></span>
+			<a href="/">Home</a></button>
+		<button type="button" class="btn btn-default btn-sm no">
+			<span class="glyphicon glyphicon-share-alt"></span>
+			<a href="https://www.lianyiming.com">BlogSite</a>
+		</button>
+
+		<button type="button" class="btn btn-default btn-sm no">
+			<span class="glyphicon glyphicon-user"></span>
+			<a href="about.html">about</a>
+		</button>
+		<!--改变botton里的a的css，直接改botton就可以，不用改>a、-->
+		<button type="button" class="btn btn-default btn-sm no">
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown">幻灯片</a>
+			<div class="dropdown-menu">
+				<a class="dropdown-item" href="http://www.lianyiming.com/Reveal.js/LianYiMing.html">幻灯片-跟着肾宝学网络</a>
+				<a class="dropdown-item" href="http://www.lianyiming.com/Reveal.js/Web.html">幻灯片-晨会</a>
 
 			</div>
-			<div class="collapse navbar-collapse" id="LianYiMing-navbar-collapse">
-
-				{% if page.home == 'index' %}
-				<button type="button" class="btn btn-default btn-sm active" >
-					<span class="glyphicon glyphicon-home"></span>
-					<a href="/">Home</a></button>
-				{% else %}
-<!--Css空格多个class
-http://medium.com-->
-				<button type="button" class="btn btn-default btn-sm " >
-					<span class="glyphicon glyphicon-home"></span>
-					<a href="/">Home</a></button>
-				{% endif %}
-
-				<button type="button" class="btn btn-default btn-sm" >
-					<span class="glyphicon glyphicon-share-alt"></span>
-					<a href="https://www.lianyiming.com">BlogSite</a>
-				</button>
-
-				<button type="button" class="btn btn-default btn-sm" >
-					<span class="glyphicon glyphicon-user"></span>
-					<a href="about.html">about</a>
-				</button>
+		</button>
+	</div>
+	<div class="collapse navbar-collapse" id="LianYiMing-navbar-collapse">
+	</div>
 
 
-		
-	
 </nav>
-
