@@ -6,52 +6,50 @@
 			let wrapper = document.querySelector('.wrapper')
 			let scroll = new BScroll(wrapper)
 		</script>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!--移动端bootstrap的正常显示问题-->
-	<!--1，左右间距要大
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!--移动端bootstrap的正常显示问题-->
+		<!--1，左右间距要大
 	<script src="https://unpkg.com/better-scroll/dist/bscroll.min.js"></script>-->
-	<style
-	>
-		    .aplayer .aplayer-lrc p.aplayer-lrc-current {
-		        font-size: 16px;
-		        color: #42b983;
-		    }
-		
-		
+		<style>
+			.aplayer .aplayer-lrc p.aplayer-lrc-current {
+				font-size: 16px;
+				color: #42b983;
+			}
 		</style>
 	</head>
 
 	<body>
 		<div class="wrapper">
-<!--如果父元素没有指定高和宽，子元素貌似必须有高或宽和父元素一样-->
-	<!--<script type="text/javascript" src="/js/ribbon-dynamic.js" async="async"></script>-->
-				{% include link.html %}
-	
-		
-		
+			<!--如果父元素没有指定高和宽，子元素貌似必须有高或宽和父元素一样-->
+			<!--<script type="text/javascript" src="/js/ribbon-dynamic.js" async="async"></script>-->
+			{% include link.html %}
+
+
+
 			{% include nav.html %}
-		
+
 			<!--Link放下边，不然nav的css无法集成-->
-		{{ content }}
-		
-		{% include footer.html %}
+			{{ content }}
+
+			{% include footer.html %}
 		</div>
-		</body>
-		<script>
-		$(window).scroll(
-		    {
-		        previousTop: 0
-		    }, 
-		    function () {
-		    var currentTop = $(window).scrollTop();
-		    if (currentTop < this.previousTop) {
-		     
-		        $("#navcontainer").show();
-		    } else {
-		       
-		        $("#navcontainer").hide();
-		    }
-		    this.previousTop = currentTop;
-		});//https://www.it1352.com/569964.html</script>
+	</body>
+	<script>
+		$(window).scroll({
+				previousTop: 0
+			},
+			function() {
+				var currentTop = $(window).scrollTop();
+				if (currentTop < this.previousTop) {
+
+					$("#navcontainer").show();
+				} else {
+
+					$("#navcontainer").hide();
+				}
+				this.previousTop = currentTop;
+			});
+		//https://www.it1352.com/569964.html
+	</script>
 
 </html>

@@ -29,34 +29,36 @@ home: index
 			<h2 class="posttitle">
 				<b>{{ post.title }}</b>
 			</h2>
-		<!--	{% if post.subtitle %}
+			<!--	{% if post.subtitle %}
 			<h3 class="postsubtitle">
 				{{ post.subtitle }}
 			</h3>
 			{% endif %}-->
-{% if post.date %}
+			{% if post.date %}
 
-		<h3 class="postdate">
-			Date： {{ post.date | date: "%Y-%m-%d"  }}
-			&nbsp;|&nbsp;Author：{{ post.author }}
-		</h3>
+			<h3 class="postdate">
+				Date： {{ post.date | date: "%Y-%m-%d"  }}
+				&nbsp;|&nbsp;Author：{{ post.author }}
+			</h3>
 
-		{% endif %}
+			{% endif %}
 
 
-			<div >
-				<small>	<p class="postcontent">
-					{{ post.content | strip_html | truncate:200 }}
-				</p></small>
+			<div>
+				<small>
+					<p class="postcontent">
+						{{ post.content | strip_html | truncate:200 }}
+					</p>
+				</small>
 			</div>
-	
+
 		</a>
 		<!--<span class="glyphicon glyphicon-share-alt "></span>
 				<span class="glyphicon glyphicon-user "></span>
 				
 				
 				-->
-	
+
 	</div>
 
 

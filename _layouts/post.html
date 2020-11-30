@@ -13,13 +13,9 @@ layout: default
 <!--让公众号图片认为自己在微信里，避免“来自公众号不可引用”-->
 <body>
 	
-
-	
-		<div class="row">
 			<div class="articlebody">
 				{{ content }}
 			</div>
-		</div>
 	<ul class="poster">
 		<li>
 			<a href="{{ post.previous.url | pretend:site.baseurl | replace: '//', '/' }}" data-toggle="toolip" data-placement="top"
