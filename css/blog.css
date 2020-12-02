@@ -7,9 +7,8 @@ body {
 
 @font-face {
 	font-family: 'sleek';
-	src: url('/fonts/sleek.woff');
+	src: url('https://cdn.jsdelivr.net/gh/LianYiMing/Fonts@v0.1/%E7%AD%91%E7%B4%ABa%E4%B8%B8%EF%BC%88%E5%B7%B2%E8%BD%ACwoff%EF%BC%89.woff');
 	format('truetype');
-	src: url();
 }
 
 h1,
@@ -20,7 +19,6 @@ h5,
 
 p {
 	color: #F7F7F7;
-	font-family: sleek;
 	color: #000000;
 }
 
@@ -78,7 +76,7 @@ p {}
 .postcontent {
 	margin-left: 10px;
 	margin-right: 10px;
-	font-family: 'siyuansongti', 'Times New Roman', serif;
+	font-family: "sleek";
 }
 
 .wrapper {
@@ -101,8 +99,7 @@ p {}
 .lllll {
 
 	margin-top: 20px;
-	margin-left: 90px;
-	margin-right: 90px;
+
 
 	overflow: hidden;
 }
@@ -127,7 +124,7 @@ p {}
 #footerlym {
 	color: #FFFFFF;
 	color: #000000;
-
+font-family: "sleek";
 }
 
 #footerlym:focus,
