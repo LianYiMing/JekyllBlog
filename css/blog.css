@@ -103,7 +103,9 @@ p {}
 
 	overflow: hidden;
 }
+.music{
 
+}
 .xuhua {
 	margin-top: 20px;
 	margin-left: 90px;
@@ -125,6 +127,7 @@ p {}
 	color: #FFFFFF;
 	color: #000000;
 font-family: "sleek";
+font-size: 1px;
 }
 
 #footerlym:focus,
