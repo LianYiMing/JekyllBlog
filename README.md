@@ -1,6 +1,20 @@
 # JekyllBlog
 这是窝原创的一只个人博客
 
+##### **`有很多搭建教程`**
+
+[安装jekyll及过程中遇到的一点问题_flysky_jay的博客-CSDN博客](https://blog.csdn.net/flysky_jay/article/details/106397264?utm_medium=distribute.pc_relevant.none-task-blog-title-3&spm=1001.2101.3001.4242)
+
+[jekyll 根目录下 index 如果写成 .html 为什么不能解析 {{ ... }} {% ...%} ， 改成 .md 就能解析 - V2EX](https://www.v2ex.com/t/507598)
+
+[jekyll-paginate使用失败_Monkey_D_Luffy的博客-CSDN博客](https://blog.csdn.net/qq_26508409/article/details/77927593?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.add_param_isCf&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.add_param_isCf)
+
+[bootstrap之navbar - 小白的日常 - 博客园](https://www.cnblogs.com/jipinglong/p/9032640.html)
+
+[Jekyll + Github Pages 搭建个人免费博客 - 知乎](https://zhuanlan.zhihu.com/p/87225594)
+
+[在windows下安装jekyll（一个很好地博客系统） - 简书](https://www.jianshu.com/p/88e3474cef72)
+
 ##### `可能的问题`
 
 ##### 1.本地调试失败不仅仅是代码问题，也可能是post文章的问题，总之出不来
