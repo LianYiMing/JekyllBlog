@@ -15,6 +15,12 @@
 
 [在windows下安装jekyll（一个很好地博客系统） - 简书](https://www.jianshu.com/p/88e3474cef72)
 
+[windows安装jekyll步骤及问题_彭世瑜的博客-CSDN博客_安装jekyll](https://blog.csdn.net/mouday/article/details/79300135)
+
+[Github+Jekyll 搭建个人网站详细教程 - 简书](https://www.jianshu.com/p/9f71e260925d)
+
+[Win10安装jekyll可能遇到的问题及解决办法_唐传林的博客-CSDN博客](https://nicktcl.blog.csdn.net/article/details/83546278?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.add_param_isCf&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.add_param_isCf)
+
 ##### `可能的问题`
 
 ##### 1.本地调试失败不仅仅是代码问题，也可能是post文章的问题，总之出不来
