@@ -21,6 +21,10 @@
 
 [Win10安装jekyll可能遇到的问题及解决办法_唐传林的博客-CSDN博客](https://nicktcl.blog.csdn.net/article/details/83546278?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.add_param_isCf&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.add_param_isCf)
 
+有位大佬写了很多jekyll的使用文章在博客
+
+https://gorpeln.com/
+
 ##### `可能的问题`
 
 ##### 1.本地调试失败不仅仅是代码问题，也可能是post文章的问题，总之出不来
