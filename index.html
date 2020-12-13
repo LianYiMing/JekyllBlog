@@ -4,71 +4,122 @@ home: index
 ---
 <div class="row">
 	<div class="container">
-<!--box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .07), 0 1px 5px 0 rgba(0, 0, 0, .1);第一个是向右偏移，第二个是向下偏移，第三个是虚化半径，第四个是阴影宽度，写第二个为了上下有阴影-->
+		<!--box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .07), 0 1px 5px 0 rgba(0, 0, 0, .1);第一个是向右偏移，第二个是向下偏移，第三个是虚化半径，第四个是阴影宽度，写第二个为了上下有阴影-->
 
-<!--https://github.com/metowolf/MetingJS#option-->
-<div class="lllll">
-	<div class="postbodyxuhua">
-<div class="music">
+		<!--https://github.com/metowolf/MetingJS#option-->
+		<div class="lllll">
+			<div class="postbodyxuhua">
+				<div class="music">
 
 
-		<meting-js server="netease" type="playlist" id="5284412572" list-folded="true" list-max-height="300px" theme="#068237">
-		</meting-js>
-	</div>
-	</div>
-</div>
-<!--没法同时两个文章左右显示offste会上下错位->
+					<meting-js server="netease" type="playlist" id="5284412572" list-folded="true" list-max-height="300px" theme="#068237">
+					</meting-js>
+				</div>
+			</div>
+		</div>
+		<!--没法同时两个文章左右显示offste会上下错位->
 	<!--row放到for外面-->
 
+		
+		{% for post in paginator.posts %}
 
-{% for post in paginator.posts %}
+<script>
+			function Shadow() {
+				var k = document.getElementById('123')
+				k.innerHTML="asdasdadas"
+			}
+		</script>
 
+		<div class="lllll hidden-lg hidden-md col-12" id="qk" onmouseenter="Shadow()">
+			<!--	-->
+			<div class="postbody postbodyxuhua" onmouseenter="Shadow()">
 
-
-<div class=" lllll">
-	<div class="postbody postbodyxuhua">
-
-		<a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
-			<h2 class="posttitle">
-				<b>{{ post.title }}</b>
-			</h2>
-			<!--	{% if post.subtitle %}
+				<a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
+					<h2 class="posttitle">
+						<b>{{ post.title }}</b>
+					</h2>
+					<!--	{% if post.subtitle %}
 			<h3 class="postsubtitle">
 				{{ post.subtitle }}
 			</h3>
 			{% endif %}-->
-			{% if post.date %}
+					{% if post.date %}
 
-			<h3 class="postdate">
-				Date： {{ post.date | date: "%Y-%m-%d"  }}
-				&nbsp;|&nbsp;Author：{{ post.author }}
-			</h3>
+					<h3 class="postdate">
+						Date： {{ post.date | date: "%Y-%m-%d"  }}
+						&nbsp;|&nbsp;Author：{{ post.author }}
+					</h3>
 
-			{% endif %}
+					{% endif %}
 
 
-			<div>
-				<small>
-					<p class="postcontent">
-						{{ post.content | strip_html | truncate:200 }}
-					</p>
-				</small>
-			</div>
+					<div>
+						<small>
+							<p class="postcontent">
+								{{ post.content | strip_html | truncate:200 }}
+							</p>
+						</small>
+					</div>
 
-		</a>
-		<!--<span class="glyphicon glyphicon-share-alt "></span>
+				</a>
+				<!--<span class="glyphicon glyphicon-share-alt "></span>
 				<span class="glyphicon glyphicon-user "></span>
 				
 				
 				-->
 
+				<!---->
+			</div>
+
+
+		</div>
+
+
+		<div class="lllll visible-lg visible-md col-12">
+			<!--	-->
+			<div class="postbody postbodyxuhua">
+
+				<a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
+					<h2 class="posttitle">
+						<b>{{ post.title }}</b>
+					</h2>
+					<!--	{% if post.subtitle %}
+			<h3 class="postsubtitle">
+				{{ post.subtitle }}
+			</h3>
+			{% endif %}-->
+					{% if post.date %}
+
+					<h3 class="postdate">
+						Date： {{ post.date | date: "%Y-%m-%d"  }}
+						&nbsp;|&nbsp;Author：{{ post.author }}
+					</h3>
+
+					{% endif %}
+
+
+					<div>
+						<small>
+							<p class="postcontent">
+								{{ post.content | strip_html | truncate:500 }}
+							</p>
+						</small>
+					</div>
+
+				</a>
+				<!--<span class="glyphicon glyphicon-share-alt "></span>
+				<span class="glyphicon glyphicon-user "></span>
+				
+				
+				-->
+
+				<!---->
+			</div>
+
+
+		</div>
+
+		{% endfor %}
 	</div>
-
-
-</div>
-
-
-{% endfor %}
-</div>
-<!--放前边。不然会在最后出现-->
+	<!--放前边。不然会在最后出现-->
 </div>

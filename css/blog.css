@@ -22,6 +22,11 @@ p {
 }
 
 p {}
+#qk:hover,
+#qk:focus{
+	 margin-top: 0px;
+	transition: 0.25s;
+}
 
 .postbody>a:hover,
 .postbody>a:focus,
@@ -37,7 +42,18 @@ p {}
 	text-decoration: none;
 	color: #42b983;
 }
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+	
+  }
+}
 
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
 .postbody>a {
 	text-align: center;
 }
@@ -85,6 +101,19 @@ p {}
 }
 
 .postbodyxuhua {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 10px;
+	backdrop-filter: blur(30px) brightness(1.1);
+	-webkit-backdrop-filter: blur(30px);
+	border-radius: 30px;
+
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .07), 0 1px 5px 0 rgba(0, 0, 0, .1);
+	overflow: hidden;
+}
+.navxuhua {
 	margin: 15px;
 	padding: 10px;
 	backdrop-filter: blur(30px) brightness(1.1);
@@ -94,12 +123,9 @@ p {}
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .07), 0 1px 5px 0 rgba(0, 0, 0, .1);
 	overflow: hidden;
 }
-
 .lllll {
 
 	margin-top: 20px;
-
-
 	overflow: hidden;
 }
 .music{
@@ -113,6 +139,7 @@ p {}
 	backdrop-filter: blur(30px) brightness(1.1);
 	-webkit-backdrop-filter: blur(30px);
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .07), 0 1px 5px 0 rgba(0, 0, 0, .1);
+	
 }
 
 .articlebody {
@@ -192,6 +219,7 @@ font-size: 1px;
 	text-shadow: #000000 1px 1px 1px;
 	border: 0;
 	color: #ffffff;
+	
 }
 
 .navbar-brand {
